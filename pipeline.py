@@ -81,7 +81,6 @@ class PipelineStep:
         self,
         name: str,
         module_path: str,
-        subcommand: str,
         args: List[str],
         output_file: str,
         validation_model: Optional[Type] = None,
@@ -89,7 +88,6 @@ class PipelineStep:
     ):
         self.name = name
         self.module_path = module_path
-        self.subcommand = subcommand
         self.args = args
         self.output_file = output_file
         self.validation_model = validation_model
@@ -98,8 +96,8 @@ class PipelineStep:
         self.end_time = None
 
     def get_cmd(self, config: PipelineConfig) -> List[str]:
-        """Build the command list."""
-        cmd = [sys.executable, str(PROJECT_ROOT / self.module_path), self.subcommand]
+        """Build the command list without subcommands."""
+        cmd = [sys.executable, str(PROJECT_ROOT / self.module_path)]
         # Replace placeholders in args
         resolved = []
         for arg in self.args:
@@ -212,17 +210,16 @@ class PipelineStep:
             return False
 
 # ------------------------------------------------------------------
-# Pipeline Definition
+# Pipeline Definition (no subcommands)
 # ------------------------------------------------------------------
 def get_pipeline_steps() -> List[PipelineStep]:
-    """Define all pipeline steps."""
+    """Define all pipeline steps without subcommands."""
     steps = []
 
     # Stage 1: Scene Detection
     steps.append(PipelineStep(
         name="Scene Detection",
         module_path="video-brain/modules/01_scene_detector/main.py",
-        subcommand="detect",
         args=["{video}", "--output", "{output_dir}/scenes.json"],
         output_file="scenes.json",
         validation_model=SceneDetectionResult,
@@ -232,7 +229,6 @@ def get_pipeline_steps() -> List[PipelineStep]:
     steps.append(PipelineStep(
         name="Face Detection",
         module_path="video-brain/modules/02_face_layer/main.py",
-        subcommand="detect",
         args=["{video}", "{output_dir}/scenes.json", "--output", "{output_dir}/faces.json"],
         output_file="faces.json",
         validation_model=FaceDetectionResult,
@@ -242,7 +238,6 @@ def get_pipeline_steps() -> List[PipelineStep]:
     steps.append(PipelineStep(
         name="Identity Tracking",
         module_path="video-brain/modules/03_identity_layer/main.py",
-        subcommand="track",
         args=["{video}", "{output_dir}/faces.json", "{output_dir}/scenes.json", "--output", "{output_dir}/identities.json"],
         output_file="identities.json",
         validation_model=IdentityResult,
@@ -252,7 +247,6 @@ def get_pipeline_steps() -> List[PipelineStep]:
     steps.append(PipelineStep(
         name="Conversation (WhisperX)",
         module_path="video-brain/modules/04_conversation_layer/main.py",
-        subcommand="process",
         args=["{video}", "--output", "{output_dir}/conversation.json", "--model", "tiny", "--device", "cpu"],
         output_file="conversation.json",
         validation_model=ConversationResult,
@@ -263,7 +257,6 @@ def get_pipeline_steps() -> List[PipelineStep]:
     steps.append(PipelineStep(
         name="Timeline Fusion",
         module_path="video-brain/modules/05_timeline_fusion/main.py",
-        subcommand="fuse",
         args=[
             "{video}",
             "{output_dir}/scenes.json",
