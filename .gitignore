@@ -1,0 +1,28 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Output folders
+jobs/
+outputs/
+cache/
+logs/
+
+# AI models
+models/
+checkpoints/
+
+# Secrets
+.env
+.env.*
+
+# Videos
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# OS
+.DS_Store
+Thumbs.db
