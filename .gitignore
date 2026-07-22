@@ -9,6 +9,7 @@ outputs/
 cache/
 logs/
 remote_gpu/jobs/
+firstdraft1/
 
 # AI models
 models/
