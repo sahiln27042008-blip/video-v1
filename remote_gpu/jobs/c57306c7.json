@@ -1,9 +1,0 @@
-{
-  "job_id": "c57306c7",
-  "status": "failed",
-  "progress": 0.0,
-  "message": "Scene Detection",
-  "result_timeline": null,
-  "result_timeline_words": null,
-  "error": "Module video-brain/modules/01_scene_detector/main.py failed: Usage: main.py [OPTIONS] {input}\nTry 'main.py --help' for help.\n+- Error ---------------------------------------------------------------------+\n| Invalid value for 'input': File 'detect' does not exist.                    |\n+-----------------------------------------------------------------------------+\n"
-}

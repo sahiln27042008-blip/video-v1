@@ -8,6 +8,7 @@ jobs/
 outputs/
 cache/
 logs/
+remote_gpu/jobs/
 
 # AI models
 models/
