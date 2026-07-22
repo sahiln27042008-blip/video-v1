@@ -1,0 +1,9 @@
+{
+  "job_id": "9a237bc3",
+  "status": "failed",
+  "progress": 0,
+  "message": "Conversation (WhisperX)",
+  "result_timeline": null,
+  "result_timeline_words": null,
+  "error": "\nCommand:\nG:\\projects\\video v1\\.venv\\Scripts\\python.exe video-brain/modules/04_conversation_layer/main.py G:\\projects\\video v1\\jobs\\9a237bc3\\video.mp4 --output G:\\projects\\video v1\\jobs\\9a237bc3\\conversation.json --model tiny --device cpu\n\ncwd:\nG:\\projects\\video v1\n\nOutput:\nError: HF_TOKEN must be set for diarization\n\n"
+}
