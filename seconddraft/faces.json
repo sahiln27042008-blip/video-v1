@@ -1,0 +1,1191 @@
+{
+  "module": "timeline_fusion",
+  "version": "0.1.0",
+  "video": "/content/video-v1/video.mp4",
+  "segments": [
+    {
+      "start": "00:00:00.031",
+      "end": "00:00:02.596",
+      "scene_id": 1,
+      "camera": null,
+      "visible_people": [
+        "person_1",
+        "person_1"
+      ],
+      "active_speaker": "person_1",
+      "speaker_label": "SPEAKER_00",
+      "text": "What are the values that Vikram Saharawai instilled in Isru?",
+      "words": [
+        {
+          "word": "What",
+          "start": 0.031,
+          "end": 0.131
+        },
+        {
+          "word": "are",
+          "start": 0.151,
+          "end": 0.211
+        },
+        {
+          "word": "the",
+          "start": 0.231,
+          "end": 0.312
+        },
+        {
+          "word": "values",
+          "start": 0.352,
+          "end": 0.672
+        },
+        {
+          "word": "that",
+          "start": 0.692,
+          "end": 0.853
+        },
+        {
+          "word": "Vikram",
+          "start": 0.913,
+          "end": 1.233
+        },
+        {
+          "word": "Saharawai",
+          "start": 1.253,
+          "end": 1.614
+        },
+        {
+          "word": "instilled",
+          "start": 1.654,
+          "end": 2.035
+        },
+        {
+          "word": "in",
+          "start": 2.055,
+          "end": 2.155
+        },
+        {
+          "word": "Isru?",
+          "start": 2.235,
+          "end": 2.596
+        }
+      ]
+    },
+    {
+      "start": "00:00:06.442",
+      "end": "00:00:10.871",
+      "scene_id": 2,
+      "camera": null,
+      "visible_people": [
+        "person_12"
+      ],
+      "active_speaker": "person_12",
+      "speaker_label": "SPEAKER_00",
+      "text": "Which makes Isru so special that they're able to launch a rocket at less than the cost of a Hollywood movie.",
+      "words": [
+        {
+          "word": "Which",
+          "start": 6.443,
+          "end": 6.603
+        },
+        {
+          "word": "makes",
+          "start": 6.684,
+          "end": 6.884
+        },
+        {
+          "word": "Isru",
+          "start": 6.944,
+          "end": 7.185
+        },
+        {
+          "word": "so",
+          "start": 7.225,
+          "end": 7.345
+        },
+        {
+          "word": "special",
+          "start": 7.405,
+          "end": 7.866
+        },
+        {
+          "word": "that",
+          "start": 7.966,
+          "end": 8.066
+        },
+        {
+          "word": "they're",
+          "start": 8.086,
+          "end": 8.226
+        },
+        {
+          "word": "able",
+          "start": 8.247,
+          "end": 8.367
+        },
+        {
+          "word": "to",
+          "start": 8.387,
+          "end": 8.447
+        },
+        {
+          "word": "launch",
+          "start": 8.487,
+          "end": 8.667
+        },
+        {
+          "word": "a",
+          "start": 8.687,
+          "end": 8.747
+        },
+        {
+          "word": "rocket",
+          "start": 8.788,
+          "end": 9.188
+        },
+        {
+          "word": "at",
+          "start": 9.409,
+          "end": 9.469
+        },
+        {
+          "word": "less",
+          "start": 9.529,
+          "end": 9.629
+        },
+        {
+          "word": "than",
+          "start": 9.649,
+          "end": 9.769
+        },
+        {
+          "word": "the",
+          "start": 9.789,
+          "end": 9.85
+        },
+        {
+          "word": "cost",
+          "start": 9.89,
+          "end": 10.07
+        },
+        {
+          "word": "of",
+          "start": 10.09,
+          "end": 10.15
+        },
+        {
+          "word": "a",
+          "start": 10.19,
+          "end": 10.21
+        },
+        {
+          "word": "Hollywood",
+          "start": 10.25,
+          "end": 10.531
+        },
+        {
+          "word": "movie.",
+          "start": 10.571,
+          "end": 10.871
+        }
+      ]
+    },
+    {
+      "start": "00:00:14.864",
+      "end": "00:00:15.904",
+      "scene_id": 5,
+      "camera": null,
+      "visible_people": [
+        "person_2",
+        "person_2"
+      ],
+      "active_speaker": "person_2",
+      "speaker_label": "SPEAKER_01",
+      "text": "The base is like brutal.",
+      "words": [
+        {
+          "word": "The",
+          "start": 14.864,
+          "end": 14.924
+        },
+        {
+          "word": "base",
+          "start": 14.944,
+          "end": 15.144
+        },
+        {
+          "word": "is",
+          "start": 15.184,
+          "end": 15.224
+        },
+        {
+          "word": "like",
+          "start": 15.264,
+          "end": 15.425
+        },
+        {
+          "word": "brutal.",
+          "start": 15.485,
+          "end": 15.905
+        }
+      ]
+    },
+    {
+      "start": "00:00:16.126",
+      "end": "00:00:16.946",
+      "scene_id": 6,
+      "camera": null,
+      "visible_people": [
+        "person_3"
+      ],
+      "active_speaker": "person_3",
+      "speaker_label": "SPEAKER_01",
+      "text": "Anything can go wrong.",
+      "words": [
+        {
+          "word": "Anything",
+          "start": 16.126,
+          "end": 16.446
+        },
+        {
+          "word": "can",
+          "start": 16.486,
+          "end": 16.606
+        },
+        {
+          "word": "go",
+          "start": 16.626,
+          "end": 16.726
+        },
+        {
+          "word": "wrong.",
+          "start": 16.766,
+          "end": 16.947
+        }
+      ]
+    },
+    {
+      "start": "00:00:17.067",
+      "end": "00:00:19.289",
+      "scene_id": 6,
+      "camera": null,
+      "visible_people": [
+        "person_3"
+      ],
+      "active_speaker": "person_3",
+      "speaker_label": "SPEAKER_01",
+      "text": "Small, bold can make a whole rocket field.",
+      "words": [
+        {
+          "word": "Small,",
+          "start": 17.067,
+          "end": 17.427
+        },
+        {
+          "word": "bold",
+          "start": 17.527,
+          "end": 17.888
+        },
+        {
+          "word": "can",
+          "start": 17.948,
+          "end": 18.128
+        },
+        {
+          "word": "make",
+          "start": 18.188,
+          "end": 18.368
+        },
+        {
+          "word": "a",
+          "start": 18.408,
+          "end": 18.488
+        },
+        {
+          "word": "whole",
+          "start": 18.568,
+          "end": 18.729
+        },
+        {
+          "word": "rocket",
+          "start": 18.769,
+          "end": 19.029
+        },
+        {
+          "word": "field.",
+          "start": 19.069,
+          "end": 19.289
+        }
+      ]
+    },
+    {
+      "start": "00:00:19.388",
+      "end": "00:00:21.992",
+      "scene_id": 8,
+      "camera": null,
+      "visible_people": [
+        "person_3"
+      ],
+      "active_speaker": "person_3",
+      "speaker_label": "SPEAKER_01",
+      "text": "It's so expensive that it has to work every time perfectly.",
+      "words": [
+        {
+          "word": "It's",
+          "start": 19.389,
+          "end": 19.49
+        },
+        {
+          "word": "so",
+          "start": 19.51,
+          "end": 19.63
+        },
+        {
+          "word": "expensive",
+          "start": 19.69,
+          "end": 20.11
+        },
+        {
+          "word": "that",
+          "start": 20.21,
+          "end": 20.331
+        },
+        {
+          "word": "it",
+          "start": 20.391,
+          "end": 20.471
+        },
+        {
+          "word": "has",
+          "start": 20.511,
+          "end": 20.631
+        },
+        {
+          "word": "to",
+          "start": 20.651,
+          "end": 20.731
+        },
+        {
+          "word": "work",
+          "start": 20.771,
+          "end": 20.971
+        },
+        {
+          "word": "every",
+          "start": 21.031,
+          "end": 21.272
+        },
+        {
+          "word": "time",
+          "start": 21.312,
+          "end": 21.512
+        },
+        {
+          "word": "perfectly.",
+          "start": 21.572,
+          "end": 21.993
+        }
+      ]
+    },
+    {
+      "start": "00:00:22.073",
+      "end": "00:00:23.454",
+      "scene_id": 9,
+      "camera": null,
+      "visible_people": [
+        "person_13"
+      ],
+      "active_speaker": "person_13",
+      "speaker_label": "SPEAKER_01",
+      "text": "One of the hardest engineering challenges.",
+      "words": [
+        {
+          "word": "One",
+          "start": 22.073,
+          "end": 22.133
+        },
+        {
+          "word": "of",
+          "start": 22.153,
+          "end": 22.213
+        },
+        {
+          "word": "the",
+          "start": 22.233,
+          "end": 22.293
+        },
+        {
+          "word": "hardest",
+          "start": 22.313,
+          "end": 22.593
+        },
+        {
+          "word": "engineering",
+          "start": 22.633,
+          "end": 23.014
+        },
+        {
+          "word": "challenges.",
+          "start": 23.034,
+          "end": 23.454
+        }
+      ]
+    },
+    {
+      "start": "00:00:23.533",
+      "end": "00:00:26.437",
+      "scene_id": 9,
+      "camera": null,
+      "visible_people": [
+        "person_13"
+      ],
+      "active_speaker": "person_13",
+      "speaker_label": "SPEAKER_01",
+      "text": "And then that national spirit, you know, so that we have to do for the country.",
+      "words": [
+        {
+          "word": "And",
+          "start": 23.534,
+          "end": 23.615
+        },
+        {
+          "word": "then",
+          "start": 23.635,
+          "end": 23.735
+        },
+        {
+          "word": "that",
+          "start": 23.775,
+          "end": 23.895
+        },
+        {
+          "word": "national",
+          "start": 24.055,
+          "end": 24.456
+        },
+        {
+          "word": "spirit,",
+          "start": 24.496,
+          "end": 24.796
+        },
+        {
+          "word": "you",
+          "start": 24.836,
+          "end": 24.956
+        },
+        {
+          "word": "know,",
+          "start": 24.976,
+          "end": 25.156
+        },
+        {
+          "word": "so",
+          "start": 25.176,
+          "end": 25.216
+        },
+        {
+          "word": "that",
+          "start": 25.257,
+          "end": 25.377
+        },
+        {
+          "word": "we",
+          "start": 25.397,
+          "end": 25.457
+        },
+        {
+          "word": "have",
+          "start": 25.477,
+          "end": 25.617
+        },
+        {
+          "word": "to",
+          "start": 25.637,
+          "end": 25.677
+        },
+        {
+          "word": "do",
+          "start": 25.697,
+          "end": 25.877
+        },
+        {
+          "word": "for",
+          "start": 25.917,
+          "end": 26.017
+        },
+        {
+          "word": "the",
+          "start": 26.037,
+          "end": 26.098
+        },
+        {
+          "word": "country.",
+          "start": 26.138,
+          "end": 26.438
+        }
+      ]
+    },
+    {
+      "start": "00:00:26.457",
+      "end": "00:00:28.219",
+      "scene_id": 12,
+      "camera": null,
+      "visible_people": [
+        "person_4",
+        "person_14",
+        "person_5",
+        "person_6",
+        "person_7",
+        "person_15",
+        "person_8",
+        "person_9",
+        "person_16",
+        "person_10",
+        "person_11",
+        "person_17",
+        "person_18",
+        "person_19",
+        "person_4",
+        "person_9",
+        "person_7",
+        "person_6",
+        "person_8",
+        "person_11",
+        "person_5",
+        "person_10"
+      ],
+      "active_speaker": "person_4",
+      "speaker_label": "SPEAKER_01",
+      "text": "You know, because we know that resources are very less.",
+      "words": [
+        {
+          "word": "You",
+          "start": 26.458,
+          "end": 26.518
+        },
+        {
+          "word": "know,",
+          "start": 26.538,
+          "end": 26.658
+        },
+        {
+          "word": "because",
+          "start": 26.678,
+          "end": 26.899
+        },
+        {
+          "word": "we",
+          "start": 26.919,
+          "end": 26.999
+        },
+        {
+          "word": "know",
+          "start": 27.039,
+          "end": 27.179
+        },
+        {
+          "word": "that",
+          "start": 27.219,
+          "end": 27.319
+        },
+        {
+          "word": "resources",
+          "start": 27.339,
+          "end": 27.659
+        },
+        {
+          "word": "are",
+          "start": 27.679,
+          "end": 27.76
+        },
+        {
+          "word": "very",
+          "start": 27.8,
+          "end": 27.98
+        },
+        {
+          "word": "less.",
+          "start": 28.0,
+          "end": 28.22
+        }
+      ]
+    },
+    {
+      "start": "00:00:28.339",
+      "end": "00:00:30.522",
+      "scene_id": 13,
+      "camera": null,
+      "visible_people": [
+        "person_3",
+        "person_3"
+      ],
+      "active_speaker": "person_3",
+      "speaker_label": "SPEAKER_01",
+      "text": "Example, the entire budget of Israel so far.",
+      "words": [
+        {
+          "word": "Example,",
+          "start": 28.34,
+          "end": 28.681
+        },
+        {
+          "word": "the",
+          "start": 28.701,
+          "end": 28.841
+        },
+        {
+          "word": "entire",
+          "start": 28.881,
+          "end": 29.382
+        },
+        {
+          "word": "budget",
+          "start": 29.462,
+          "end": 29.722
+        },
+        {
+          "word": "of",
+          "start": 29.762,
+          "end": 29.822
+        },
+        {
+          "word": "Israel",
+          "start": 29.902,
+          "end": 30.142
+        },
+        {
+          "word": "so",
+          "start": 30.162,
+          "end": 30.303
+        },
+        {
+          "word": "far.",
+          "start": 30.323,
+          "end": 30.523
+        }
+      ]
+    },
+    {
+      "start": "00:00:30.702",
+      "end": "00:00:31.704",
+      "scene_id": 13,
+      "camera": null,
+      "visible_people": [
+        "person_3",
+        "person_3"
+      ],
+      "active_speaker": "person_3",
+      "speaker_label": "SPEAKER_01",
+      "text": "All community are together.",
+      "words": [
+        {
+          "word": "All",
+          "start": 30.703,
+          "end": 30.863
+        },
+        {
+          "word": "community",
+          "start": 30.923,
+          "end": 31.284
+        },
+        {
+          "word": "are",
+          "start": 31.304,
+          "end": 31.364
+        },
+        {
+          "word": "together.",
+          "start": 31.384,
+          "end": 31.704
+        }
+      ]
+    },
+    {
+      "start": "00:00:31.743",
+      "end": "00:00:33.066",
+      "scene_id": 13,
+      "camera": null,
+      "visible_people": [
+        "person_3",
+        "person_3"
+      ],
+      "active_speaker": "person_3",
+      "speaker_label": "SPEAKER_01",
+      "text": "There is less than one year budget of NASA.",
+      "words": [
+        {
+          "word": "There",
+          "start": 31.744,
+          "end": 31.865
+        },
+        {
+          "word": "is",
+          "start": 31.925,
+          "end": 31.985
+        },
+        {
+          "word": "less",
+          "start": 32.005,
+          "end": 32.125
+        },
+        {
+          "word": "than",
+          "start": 32.145,
+          "end": 32.265
+        },
+        {
+          "word": "one",
+          "start": 32.325,
+          "end": 32.405
+        },
+        {
+          "word": "year",
+          "start": 32.425,
+          "end": 32.545
+        },
+        {
+          "word": "budget",
+          "start": 32.565,
+          "end": 32.806
+        },
+        {
+          "word": "of",
+          "start": 32.826,
+          "end": 32.886
+        },
+        {
+          "word": "NASA.",
+          "start": 32.926,
+          "end": 33.066
+        }
+      ]
+    },
+    {
+      "start": "00:00:33.106",
+      "end": "00:00:35.667",
+      "scene_id": 14,
+      "camera": null,
+      "visible_people": [
+        "person_3",
+        "person_3"
+      ],
+      "active_speaker": "person_3",
+      "speaker_label": "SPEAKER_01",
+      "text": "Really, yes, that resources we have done so much.",
+      "words": [
+        {
+          "word": "Really,",
+          "start": 33.106,
+          "end": 33.366
+        },
+        {
+          "word": "yes,",
+          "start": 33.566,
+          "end": 33.926
+        },
+        {
+          "word": "that",
+          "start": 33.966,
+          "end": 34.166
+        },
+        {
+          "word": "resources",
+          "start": 34.206,
+          "end": 34.727
+        },
+        {
+          "word": "we",
+          "start": 34.767,
+          "end": 34.827
+        },
+        {
+          "word": "have",
+          "start": 34.847,
+          "end": 34.967
+        },
+        {
+          "word": "done",
+          "start": 35.007,
+          "end": 35.187
+        },
+        {
+          "word": "so",
+          "start": 35.247,
+          "end": 35.407
+        },
+        {
+          "word": "much.",
+          "start": 35.447,
+          "end": 35.667
+        }
+      ]
+    },
+    {
+      "start": "00:00:35.866",
+      "end": "00:00:39.709",
+      "scene_id": 14,
+      "camera": null,
+      "visible_people": [
+        "person_3",
+        "person_3"
+      ],
+      "active_speaker": "person_3",
+      "speaker_label": "SPEAKER_01",
+      "text": "This is the environment and the great culture set up by Dr. Sarabai.",
+      "words": [
+        {
+          "word": "This",
+          "start": 35.867,
+          "end": 36.007
+        },
+        {
+          "word": "is",
+          "start": 36.067,
+          "end": 36.147
+        },
+        {
+          "word": "the",
+          "start": 36.187,
+          "end": 36.427
+        },
+        {
+          "word": "environment",
+          "start": 36.628,
+          "end": 37.148
+        },
+        {
+          "word": "and",
+          "start": 37.188,
+          "end": 37.368
+        },
+        {
+          "word": "the",
+          "start": 37.408,
+          "end": 37.508
+        },
+        {
+          "word": "great",
+          "start": 37.548,
+          "end": 37.748
+        },
+        {
+          "word": "culture",
+          "start": 37.788,
+          "end": 38.208
+        },
+        {
+          "word": "set",
+          "start": 38.468,
+          "end": 38.628
+        },
+        {
+          "word": "up",
+          "start": 38.688,
+          "end": 38.768
+        },
+        {
+          "word": "by",
+          "start": 38.788,
+          "end": 38.869
+        },
+        {
+          "word": "Dr.",
+          "start": 38.889,
+          "end": 39.189
+        },
+        {
+          "word": "Sarabai.",
+          "start": 39.209,
+          "end": 39.709
+        }
+      ]
+    },
+    {
+      "start": "00:00:39.749",
+      "end": "00:00:45.331",
+      "scene_id": 16,
+      "camera": null,
+      "visible_people": [
+        "person_3"
+      ],
+      "active_speaker": "person_3",
+      "speaker_label": "SPEAKER_01",
+      "text": "You know, because just imagine like people have settled, have done like wonderful, have great degrees in the top universities in the world.",
+      "words": [
+        {
+          "word": "You",
+          "start": 39.749,
+          "end": 39.809
+        },
+        {
+          "word": "know,",
+          "start": 39.829,
+          "end": 39.969
+        },
+        {
+          "word": "because",
+          "start": 39.989,
+          "end": 40.289
+        },
+        {
+          "word": "just",
+          "start": 40.309,
+          "end": 40.449
+        },
+        {
+          "word": "imagine",
+          "start": 40.509,
+          "end": 40.789
+        },
+        {
+          "word": "like",
+          "start": 40.809,
+          "end": 40.929
+        },
+        {
+          "word": "people",
+          "start": 40.969,
+          "end": 41.27
+        },
+        {
+          "word": "have",
+          "start": 41.39,
+          "end": 41.51
+        },
+        {
+          "word": "settled,",
+          "start": 41.55,
+          "end": 41.93
+        },
+        {
+          "word": "have",
+          "start": 41.95,
+          "end": 42.11
+        },
+        {
+          "word": "done",
+          "start": 42.13,
+          "end": 42.27
+        },
+        {
+          "word": "like",
+          "start": 42.31,
+          "end": 42.47
+        },
+        {
+          "word": "wonderful,",
+          "start": 42.55,
+          "end": 43.01
+        },
+        {
+          "word": "have",
+          "start": 43.19,
+          "end": 43.351
+        },
+        {
+          "word": "great",
+          "start": 43.471,
+          "end": 43.671
+        },
+        {
+          "word": "degrees",
+          "start": 43.711,
+          "end": 43.991
+        },
+        {
+          "word": "in",
+          "start": 44.031,
+          "end": 44.111
+        },
+        {
+          "word": "the",
+          "start": 44.131,
+          "end": 44.191
+        },
+        {
+          "word": "top",
+          "start": 44.211,
+          "end": 44.391
+        },
+        {
+          "word": "universities",
+          "start": 44.451,
+          "end": 44.891
+        },
+        {
+          "word": "in",
+          "start": 44.931,
+          "end": 44.991
+        },
+        {
+          "word": "the",
+          "start": 45.031,
+          "end": 45.091
+        },
+        {
+          "word": "world.",
+          "start": 45.131,
+          "end": 45.331
+        }
+      ]
+    },
+    {
+      "start": "00:00:45.451",
+      "end": "00:00:47.292",
+      "scene_id": 18,
+      "camera": null,
+      "visible_people": [
+        "person_3"
+      ],
+      "active_speaker": "person_3",
+      "speaker_label": "SPEAKER_01",
+      "text": "Dr. Sarabai himself came back from Cambridge.",
+      "words": [
+        {
+          "word": "Dr.",
+          "start": 45.451,
+          "end": 45.652
+        },
+        {
+          "word": "Sarabai",
+          "start": 45.672,
+          "end": 45.952
+        },
+        {
+          "word": "himself",
+          "start": 45.992,
+          "end": 46.272
+        },
+        {
+          "word": "came",
+          "start": 46.432,
+          "end": 46.552
+        },
+        {
+          "word": "back",
+          "start": 46.592,
+          "end": 46.712
+        },
+        {
+          "word": "from",
+          "start": 46.732,
+          "end": 46.872
+        },
+        {
+          "word": "Cambridge.",
+          "start": 46.912,
+          "end": 47.292
+        }
+      ]
+    },
+    {
+      "start": "00:00:47.411",
+      "end": "00:00:48.112",
+      "scene_id": 18,
+      "camera": null,
+      "visible_people": [
+        "person_3"
+      ],
+      "active_speaker": "person_3",
+      "speaker_label": "SPEAKER_01",
+      "text": "It's not about money.",
+      "words": [
+        {
+          "word": "It's",
+          "start": 47.412,
+          "end": 47.512
+        },
+        {
+          "word": "not",
+          "start": 47.552,
+          "end": 47.672
+        },
+        {
+          "word": "about",
+          "start": 47.692,
+          "end": 47.872
+        },
+        {
+          "word": "money.",
+          "start": 47.913,
+          "end": 48.113
+        }
+      ]
+    },
+    {
+      "start": "00:00:48.213",
+      "end": "00:00:49.253",
+      "scene_id": 18,
+      "camera": null,
+      "visible_people": [
+        "person_3"
+      ],
+      "active_speaker": "person_3",
+      "speaker_label": "SPEAKER_01",
+      "text": "It's about nation building.",
+      "words": [
+        {
+          "word": "It's",
+          "start": 48.213,
+          "end": 48.353
+        },
+        {
+          "word": "about",
+          "start": 48.393,
+          "end": 48.573
+        },
+        {
+          "word": "nation",
+          "start": 48.593,
+          "end": 48.853
+        },
+        {
+          "word": "building.",
+          "start": 48.893,
+          "end": 49.253
+        }
+      ]
+    },
+    {
+      "start": "00:00:49.353",
+      "end": "00:00:50.954",
+      "scene_id": 18,
+      "camera": null,
+      "visible_people": [
+        "person_3"
+      ],
+      "active_speaker": "person_3",
+      "speaker_label": "SPEAKER_01",
+      "text": "It's about like doing something beyond.",
+      "words": [
+        {
+          "word": "It's",
+          "start": 49.353,
+          "end": 49.453
+        },
+        {
+          "word": "about",
+          "start": 49.493,
+          "end": 49.753
+        },
+        {
+          "word": "like",
+          "start": 49.793,
+          "end": 49.973
+        },
+        {
+          "word": "doing",
+          "start": 50.033,
+          "end": 50.214
+        },
+        {
+          "word": "something",
+          "start": 50.234,
+          "end": 50.554
+        },
+        {
+          "word": "beyond.",
+          "start": 50.574,
+          "end": 50.954
+        }
+      ]
+    }
+  ]
+}

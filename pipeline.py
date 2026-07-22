@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Master orchestrator for Video Brain pipeline (Modules 01–05)."""
+"""Master orchestrator for Video Brain pipeline (Modules 01–06)."""
 
 import sys
 import os
@@ -39,6 +39,7 @@ try:
     from video_brain.modules._03_identity_layer.src.models import IdentityResult
     from video_brain.modules._04_conversation_layer.src.models import ConversationResult
     from video_brain.modules._05_timeline_fusion.src.models import TimelineResult
+    from video_brain.modules._06_metrics_layer.src.models import MetricsResult
     MODELS_AVAILABLE = True
 except ImportError:
     MODELS_AVAILABLE = False
@@ -50,6 +51,7 @@ except ImportError:
     IdentityResult = None
     ConversationResult = None
     TimelineResult = None
+    MetricsResult = None
 
 logger = logging.getLogger(__name__)
 
@@ -267,6 +269,19 @@ def get_pipeline_steps() -> List[PipelineStep]:
         ],
         output_file="timeline.json",
         validation_model=TimelineResult,
+    ))
+
+    # Stage 6: Metrics (produces both metrics.json and segment_metrics.json)
+    steps.append(PipelineStep(
+        name="Metrics",
+        module_path="video-brain/modules/06_metrics_layer/main.py",
+        args=[
+            "{output_dir}/timeline_with_words.json",
+            "--output", "{output_dir}/metrics.json",
+            "--segments-output", "{output_dir}/segment_metrics.json"
+        ],
+        output_file="metrics.json",
+        validation_model=MetricsResult,
     ))
 
     return steps

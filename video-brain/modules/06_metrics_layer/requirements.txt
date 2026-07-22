@@ -1,0 +1,6 @@
+textstat>=0.7.0
+yake>=0.4.8
+nltk>=3.8.0
+pydantic>=2.0.0
+typer>=0.9.0
+rich>=13.0.0

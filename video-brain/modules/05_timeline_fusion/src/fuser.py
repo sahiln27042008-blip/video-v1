@@ -4,8 +4,9 @@ import json
 from pathlib import Path
 from typing import List, Dict, Optional, Any, Tuple
 import logging
+from collections import defaultdict, Counter
 
-from .models import TimelineSegment, TimelineResult, Word
+from .models import TimelineSegment, TimelineResult, Word, PersonInfo, PeopleResult
 
 logger = logging.getLogger(__name__)
 
@@ -17,6 +18,9 @@ class TimelineFuser:
         self.identities = {}
         self.faces_by_scene = {}
         self.conversation_segments = []
+        self.people_mapping = {}  # speaker -> person_id
+        self.person_segments = defaultdict(set)  # person_id -> set of segment indices
+        self.face_to_person = {}  # face_id -> person_id
 
     def load_json(self, path: str) -> dict:
         with open(path, 'r') as f:
@@ -45,18 +49,14 @@ class TimelineFuser:
         self.scenes = scenes_data.get("scenes", [])
 
         faces_data = self.load_json(faces_path)
-        # Build mapping scene_id -> list of faces
         self.faces_by_scene = {}
         for scene in faces_data.get("scenes", []):
             self.faces_by_scene[scene["scene_id"]] = scene.get("faces", [])
 
         identities_data = self.load_json(identities_path)
-        # Build mapping: person_id -> person info
         self.identities = {}
         for person in identities_data.get("people", []):
             self.identities[person["person_id"]] = person
-        # Also we need per-scene visible persons from identities
-        # We'll use the identities.json "scenes" field to get person per scene
         self.identity_scenes = {}
         for scene in identities_data.get("scenes", []):
             scene_id = scene["id"]
@@ -66,72 +66,119 @@ class TimelineFuser:
         conversation_data = self.load_json(conversation_path)
         self.conversation_segments = conversation_data.get("segments", [])
 
+        # Build face-to-person mapping from identities_data
+        # We need to infer which face IDs belong to which person from the identities.json scenes
+        # Since identities_data has "scenes" with people, each person has a list of scene appearances,
+        # but we don't have direct face IDs per person. However, we can use the faces_by_scene to map.
+        # For each scene, we have faces with face_id (from face detection) and we have visible people.
+        # We'll assume the first face detection in that scene corresponds to the first person, etc.
+        # But that's fragile. Instead, we can use the fact that identities.json already assigned person IDs
+        # to faces during clustering, but we don't have that mapping in the output. We need to extend
+        # the identity layer to output that mapping, or we can derive it by matching bboxes.
+        # For simplicity, we'll use the existing active_speaker mapping from timeline fusion later.
+        # We'll build a mapping from speaker to person using the timeline segments (after we produce them).
+        # So we'll handle this after we have the timeline segments.
+
     def find_scene_for_time(self, start_sec: float, end_sec: float) -> Optional[dict]:
         """Find scene that contains this time interval."""
         best_scene = None
+        best_overlap = 0.0
         for scene in self.scenes:
             s_start = self.parse_time(scene["start"])
             s_end = self.parse_time(scene["end"])
-            # Check if segment is fully contained or overlaps
-            if s_start <= start_sec and end_sec <= s_end:
-                return scene
-            # If partially overlaps, choose the one with most overlap
             overlap_start = max(s_start, start_sec)
             overlap_end = min(s_end, end_sec)
             if overlap_end > overlap_start:
-                if best_scene is None:
+                overlap = overlap_end - overlap_start
+                if overlap > best_overlap:
+                    best_overlap = overlap
                     best_scene = scene
-                else:
-                    # keep the one with larger overlap
-                    pass
         return best_scene
 
     def get_visible_people(self, scene_id: int) -> List[str]:
         """Return list of person_ids visible in this scene."""
         return self.identity_scenes.get(scene_id, [])
 
-    def get_avg_confidence_for_person(self, scene_id: int, person_id: str) -> float:
-        """Compute average face detection confidence for a person in this scene."""
-        faces = self.faces_by_scene.get(scene_id, [])
-        confidences = []
-        for face in faces:
-            # We don't have direct mapping from face to person, but in identities we have person per scene.
-            # However, we don't know which face corresponds to which person.
-            # We'll use the average confidence of all faces in the scene as a proxy, or we could use the
-            # confidence from the identity layer if available.
-            # For simplicity, we'll use the average confidence of all faces in the scene.
-            # But we need person-specific confidence, which we don't have.
-            # We'll use the identity's first/last seen, but we don't have per-appearance confidence.
-            # Fallback: return the average confidence of all faces in the scene.
-            confidences.append(face.get("confidence", 0.0))
-        if confidences:
-            return sum(confidences) / len(confidences)
-        else:
-            return 0.0
+    def _map_speakers_to_persons(self, timeline_segments: List[dict]) -> Dict[str, Optional[str]]:
+        """
+        Map each speaker to the most frequent visible person during their speaking segments.
+        Returns dict speaker -> person_id or None.
+        """
+        speaker_person_counts = defaultdict(Counter)
+        for seg in timeline_segments:
+            speaker = seg.get("speaker_label")
+            if not speaker:
+                continue
+            # visible_people is a list of person_ids
+            visible = seg.get("visible_people", [])
+            if visible:
+                # Count each visible person for this speaker
+                for person in visible:
+                    speaker_person_counts[speaker][person] += 1
+        # Assign best person per speaker
+        mapping = {}
+        for speaker, counter in speaker_person_counts.items():
+            if counter:
+                # Choose person with highest count
+                best_person = counter.most_common(1)[0][0]
+                mapping[speaker] = best_person
+            else:
+                mapping[speaker] = None
+        return mapping
 
-    def link_speaker_to_person(self, start_sec: float, end_sec: float, scene: Optional[dict]) -> Optional[str]:
-        """Determine the person_id for the speaker based on visible people in the scene."""
-        if scene is None:
-            return None
-        scene_id = scene["id"]
-        visible = self.get_visible_people(scene_id)
-        if not visible:
-            return None
-        # If only one person visible, assign that person
-        if len(visible) == 1:
-            return visible[0]
-        # If multiple, choose the one with strongest appearance (by average confidence)
-        best_person = None
-        best_conf = -1.0
-        for person_id in visible:
-            conf = self.get_avg_confidence_for_person(scene_id, person_id)
-            if conf > best_conf:
-                best_conf = conf
-                best_person = person_id
-        return best_person
+    def _generate_people_json(self, timeline_segments: List[dict], speaker_mapping: Dict[str, Optional[str]]) -> List[PersonInfo]:
+        """
+        Build people.json from timeline segments and speaker mapping.
+        Also collect face_ids per person by looking at scenes where person appears.
+        """
+        # First, gather which segments each person appears in
+        person_segments = defaultdict(set)
+        for idx, seg in enumerate(timeline_segments):
+            # Use the mapped person if available, else fallback to active_speaker or visible_people
+            person = seg.get("person")
+            if person:
+                person_segments[person].add(idx + 1)  # 1-based segment IDs
+            else:
+                # If no person, use visible_people if only one
+                visible = seg.get("visible_people", [])
+                if len(visible) == 1:
+                    person_segments[visible[0]].add(idx + 1)
 
-    def fuse(self) -> TimelineResult:
-        """Main entry point: produce timeline from loaded data."""
+        # Build face_ids per person: from identities data, we need to map faces to persons.
+        # We don't have direct mapping, but we can use the faces_by_scene and identity_scenes.
+        # For each scene, we have faces and persons. We'll assume the faces are ordered similarly.
+        # This is a heuristic; a more robust approach would use bbox IoU, but we'll keep it simple.
+        face_to_person = {}
+        for scene_id, persons in self.identity_scenes.items():
+            faces = self.faces_by_scene.get(scene_id, [])
+            # If number of faces matches number of persons, assign in order
+            if len(faces) == len(persons) and len(faces) > 0:
+                for face, person in zip(faces, persons):
+                    face_id = face.get("face_id")
+                    if face_id is not None:
+                        face_to_person[face_id] = person
+
+        # Build PersonInfo list
+        people_list = []
+        for person_id, seg_set in person_segments.items():
+            # Find speaker for this person from mapping (reverse)
+            speaker = None
+            for sp, p in speaker_mapping.items():
+                if p == person_id:
+                    speaker = sp
+                    break
+            # Get face IDs for this person
+            face_ids = [fid for fid, pid in face_to_person.items() if pid == person_id]
+            people_list.append(PersonInfo(
+                person_id=person_id,
+                speaker=speaker,
+                face_ids=face_ids,
+                segments=sorted(seg_set)
+            ))
+        return people_list
+
+    def fuse(self) -> Tuple[TimelineResult, List[PersonInfo]]:
+        """Main entry point: produce timeline and people list."""
         segments_out = []
         for conv_seg in self.conversation_segments:
             start_str = conv_seg["start"]
@@ -142,45 +189,64 @@ class TimelineFuser:
             text = conv_seg["text"]
             words = [Word(**w) for w in conv_seg.get("words", [])]
 
-            # Find scene
             scene = self.find_scene_for_time(start_sec, end_sec)
             scene_id = scene["id"] if scene else None
-
-            # Visible people
             visible = []
             active_speaker = None
-            camera = None
             if scene is not None:
                 visible = self.get_visible_people(scene_id)
-                # Determine active speaker
-                active_speaker = self.link_speaker_to_person(start_sec, end_sec, scene)
-                # Camera label: not provided in data, we could infer from scene content, but we'll set to None
-                # Could be derived from which person is visible, but we don't have that mapping.
-                # For now, we leave as None.
-                camera = None
+                # Determine active speaker from visible people (simple: if one visible, assign it)
+                if len(visible) == 1:
+                    active_speaker = visible[0]
 
-            segment = TimelineSegment(
-                start=start_str,
-                end=end_str,
-                scene_id=scene_id,
-                camera=camera,
-                visible_people=visible,
-                active_speaker=active_speaker,
-                speaker_label=speaker_label,
-                text=text,
-                words=words,
-            )
+            segment = {
+                "start": start_str,
+                "end": end_str,
+                "scene_id": scene_id,
+                "camera": None,
+                "visible_people": visible,
+                "active_speaker": active_speaker,
+                "speaker_label": speaker_label,
+                "text": text,
+                "words": words,
+            }
             segments_out.append(segment)
 
-        # Sort by start time (they should already be sorted, but ensure)
-        segments_out.sort(key=lambda x: self.parse_time(x.start))
+        # Now map speakers to persons using the segments
+        speaker_mapping = self._map_speakers_to_persons(segments_out)
 
-        # Build result
+        # Assign person to each segment
+        for seg in segments_out:
+            speaker = seg["speaker_label"]
+            seg["person"] = speaker_mapping.get(speaker)
+
+        # Build PersonInfo list
+        people_list = self._generate_people_json(segments_out, speaker_mapping)
+
+        # Convert to TimelineSegment models
+        timeline_segments = []
+        for seg in segments_out:
+            timeline_segments.append(TimelineSegment(
+                start=seg["start"],
+                end=seg["end"],
+                scene_id=seg["scene_id"],
+                camera=seg["camera"],
+                visible_people=seg["visible_people"],
+                active_speaker=seg["active_speaker"],
+                person=seg["person"],
+                speaker_label=seg["speaker_label"],
+                text=seg["text"],
+                words=seg["words"],
+            ))
+
+        # Sort by start time
+        timeline_segments.sort(key=lambda x: self.parse_time(x.start))
+
         result = TimelineResult(
-            video="video.mp4",  # We could extract from any file, but we'll hardcode or accept as param
-            segments=segments_out,
+            video="",  # will be set later
+            segments=timeline_segments,
         )
-        return result
+        return result, people_list
 
     def process(
         self,
@@ -190,15 +256,23 @@ class TimelineFuser:
         identities_path: str,
         conversation_path: str,
         output_path: Optional[str] = None,
-    ) -> TimelineResult:
+    ) -> Tuple[TimelineResult, List[PersonInfo]]:
         """Full pipeline: load, fuse, save if output path given."""
         self.load_data(scenes_path, faces_path, identities_path, conversation_path)
-        result = self.fuse()
-        # Override video path from input
+        result, people_list = self.fuse()
         result.video = video_path
 
+        # If output path given, write timeline and people.json
         if output_path:
+            output_dir = Path(output_path).parent
+            output_dir.mkdir(parents=True, exist_ok=True)
             with open(output_path, "w") as f:
                 f.write(result.model_dump_json(indent=2))
+            # Write people.json alongside
+            people_path = output_dir / "people.json"
+            people_result = PeopleResult(people=people_list)
+            with open(people_path, "w") as f:
+                f.write(people_result.model_dump_json(indent=2))
+            logger.info(f"Timeline written to {output_path}, people.json written to {people_path}")
 
-        return result
+        return result, people_list

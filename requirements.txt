@@ -1,19 +1,15 @@
 # =========================
 # Video Brain Requirements
-# Google Colab (Python 3.12)
 # =========================
 
-# ---------- Core ----------
+# Core
 numpy>=2.1
 pydantic>=2.8
 typer>=0.15
 rich>=13.9
 python-dotenv>=1.0
-pandas>=2.2
-PyYAML
-tqdm
 
-# ---------- Vision ----------
+# Vision
 opencv-python
 scenedetect
 insightface
@@ -22,23 +18,28 @@ scikit-learn
 
 # Audio
 whisperx>=3.8.6
-faster-whisper>=1.2.1
-huggingface-hub
-pyannote.audio
+faster-whisper>=1.2.0
+ctranslate2>=4.5.0
+pyannote.audio>=4.0.0
+huggingface-hub>=0.36
+torch
+torchaudio
 
-# ---------- API ----------
+# Metrics
+textstat
+yake
+nltk
+
+# Utilities
+pandas
+tqdm
+librosa
+soundfile
+ffmpeg-python
+PyYAML
+
+# API
 fastapi
 uvicorn
 python-multipart
 requests
-
-# ---------- Utilities ----------
-librosa
-soundfile
-ffmpeg-python
-
-# ---------- M06 Metrics ----------
-yake
-textstat
-speechbrain
-nltk

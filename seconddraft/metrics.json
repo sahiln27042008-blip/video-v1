@@ -1,0 +1,119 @@
+{
+  "module": "metrics_layer",
+  "version": "0.1.0",
+  "summary": {
+    "video_duration": 50.923,
+    "num_scenes": 11,
+    "average_scene_duration": 4.629363636363636,
+    "vocabulary_richness": 0.651685393258427,
+    "average_confidence": 1.0
+  },
+  "speech": {
+    "total_words": 178,
+    "words_per_minute": 209.72841348702943,
+    "speaking_time": 41.404,
+    "silence_time": 9.518999999999998,
+    "speech_ratio": 0.8130707146083302,
+    "average_sentence_length": 9.368421052631579,
+    "filler_word_count": 9,
+    "longest_monologue": 34.41000000000001,
+    "speakers_count": 2,
+    "speaker_speaking_time": {
+      "SPEAKER_00": 6.994,
+      "SPEAKER_01": 34.41000000000001
+    },
+    "average_pause_length": 0.09450847457627123,
+    "longest_pause": 3.9930000000000003
+  },
+  "readability": {
+    "flesch_reading_ease": 75.178861620343,
+    "flesch_kincaid_grade": 5.10076286221171
+  },
+  "keywords": {
+    "keywords": [
+      {
+        "keyword": "Vikram Saharawai instilled",
+        "score": 0.0006887122565296463
+      },
+      {
+        "keyword": "Vikram Saharawai",
+        "score": 0.00431718627359338
+      },
+      {
+        "keyword": "Saharawai instilled",
+        "score": 0.010364221970897715
+      },
+      {
+        "keyword": "instilled in Isru",
+        "score": 0.04769761308318546
+      },
+      {
+        "keyword": "makes Isru",
+        "score": 0.05465959363850778
+      },
+      {
+        "keyword": "Isru",
+        "score": 0.06210898254120287
+      },
+      {
+        "keyword": "Vikram",
+        "score": 0.06556392525257297
+      },
+      {
+        "keyword": "Saharawai",
+        "score": 0.06556392525257297
+      },
+      {
+        "keyword": "Hollywood movie",
+        "score": 0.0738959792785139
+      },
+      {
+        "keyword": "Isru so special",
+        "score": 0.10657033735875711
+      },
+      {
+        "keyword": "instilled",
+        "score": 0.15645656828635288
+      },
+      {
+        "keyword": "Sarabai",
+        "score": 0.18503061494971348
+      },
+      {
+        "keyword": "Hollywood",
+        "score": 0.19593770391304713
+      },
+      {
+        "keyword": "rocket",
+        "score": 0.20861219130323913
+      },
+      {
+        "keyword": "budget of NASA",
+        "score": 0.25602519714938504
+      },
+      {
+        "keyword": "resources",
+        "score": 0.26077358258890393
+      },
+      {
+        "keyword": "budget",
+        "score": 0.26077358258890393
+      },
+      {
+        "keyword": "budget of Israel",
+        "score": 0.26731805798635216
+      },
+      {
+        "keyword": "rocket field",
+        "score": 0.2801628807941869
+      },
+      {
+        "keyword": "great",
+        "score": 0.29022567905353613
+      }
+    ]
+  },
+  "engagement": {
+    "score": 73.1109070788679
+  }
+}
