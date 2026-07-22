@@ -1,22 +1,41 @@
-# Core
-numpy>=1.24.0,<2.0.0
-pydantic>=2.0.0,<3.0.0
-typer>=0.9.0,<1.0.0
-rich>=13.0.0,<14.0.0
-python-dotenv>=1.0.0,<2.0.0
+# =========================
+# Video Brain Requirements
+# Google Colab (Python 3.12)
+# =========================
 
-# Vision
-opencv-python>=4.5.0,<5.0.0
-scenedetect>=0.6.0,<0.7.0
-insightface>=0.7.0,<0.8.0
-onnxruntime>=1.15.0,<2.0.0
-scikit-learn>=1.3.0,<2.0.0
+# ---------- Core ----------
+numpy>=2.1
+pydantic>=2.8
+typer>=0.15
+rich>=13.9
+python-dotenv>=1.0
 
-# Audio / Transcription
-whisperx>=3.8.0,<4.0.0
-faster-whisper>=0.10.0,<0.11.0
-ctranslate2>=3.0.0,<4.0.0
-torch>=2.0.0,<3.0.0
-torchaudio>=2.0.0,<3.0.0
-huggingface-hub>=0.20.0,<1.0.0
-pyannote.audio>=3.1.0,<4.0.0
+# ---------- Vision ----------
+opencv-python
+scenedetect
+insightface
+onnxruntime-gpu
+scikit-learn
+
+# ---------- Audio ----------
+whisperx>=3.8.6
+
+# ---------- API ----------
+fastapi
+uvicorn
+python-multipart
+requests
+
+# ---------- Utilities ----------
+tqdm
+pandas
+librosa
+soundfile
+ffmpeg-python
+PyYAML
+
+# M06 Metrics
+yake
+textstat
+SpeechBrain
+nltk
