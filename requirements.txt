@@ -9,6 +9,9 @@ pydantic>=2.8
 typer>=0.15
 rich>=13.9
 python-dotenv>=1.0
+pandas>=2.2
+PyYAML
+tqdm
 
 # ---------- Vision ----------
 opencv-python
@@ -18,7 +21,13 @@ onnxruntime-gpu
 scikit-learn
 
 # ---------- Audio ----------
-whisperx>=3.8.6
+whisperx==3.8.6
+faster-whisper>=1.2.0
+ctranslate2>=4.5.0
+torch
+torchaudio
+huggingface-hub
+pyannote.audio>=4.0.0
 
 # ---------- API ----------
 fastapi
@@ -27,15 +36,12 @@ python-multipart
 requests
 
 # ---------- Utilities ----------
-tqdm
-pandas
 librosa
 soundfile
 ffmpeg-python
-PyYAML
 
-# M06 Metrics
+# ---------- M06 Metrics ----------
 yake
 textstat
-SpeechBrain
+speechbrain
 nltk
