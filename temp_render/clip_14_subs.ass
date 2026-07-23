@@ -1,0 +1,23 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,44,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:40.25,0:01:40.37,Default,,0,0,0,,{\c&HFFFFFF&}I
+Dialogue: 0,0:01:40.43,0:01:40.67,Default,,0,0,0,,{\c&HFFFFFF&}think
+Dialogue: 0,0:01:40.75,0:01:40.89,Default,,0,0,0,,{\c&HFFFFFF&}I've
+Dialogue: 0,0:01:40.95,0:01:41.23,Default,,0,0,0,,{\c&HFFFFFF&}learned
+Dialogue: 0,0:01:41.39,0:01:41.61,Default,,0,0,0,,{\c&HFFFFFF&}much
+Dialogue: 0,0:01:41.69,0:01:41.85,Default,,0,0,0,,{\c&HFFFFFF&}more
+Dialogue: 0,0:01:41.92,0:01:42.12,Default,,0,0,0,,{\c&HFFFFFF&}from
+Dialogue: 0,0:01:42.20,0:01:42.78,Default,,0,0,0,,{\c&HFFFFFF&}mistakes
+Dialogue: 0,0:01:42.90,0:01:43.06,Default,,0,0,0,,{\c&HFFFFFF&}than
+Dialogue: 0,0:01:43.12,0:01:43.28,Default,,0,0,0,,{\c&HFFFFFF&}from
+Dialogue: 0,0:01:43.35,0:01:43.92,Default,,0,0,0,,{\c&HFFFFFF&}successes.

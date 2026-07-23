@@ -1,0 +1,119 @@
+{
+  "module": "metrics_layer",
+  "version": "0.1.0",
+  "summary": {
+    "video_duration": 189.61100000000002,
+    "num_scenes": 15,
+    "average_scene_duration": 12.640733333333335,
+    "vocabulary_richness": 0.49892008639308855,
+    "average_confidence": 1.0
+  },
+  "speech": {
+    "total_words": 463,
+    "words_per_minute": 146.51048726076016,
+    "speaking_time": 160.41800000000012,
+    "silence_time": 29.1929999999999,
+    "speech_ratio": 0.8460374134412039,
+    "average_sentence_length": 13.228571428571428,
+    "filler_word_count": 3,
+    "longest_monologue": 89.47200000000004,
+    "speakers_count": 2,
+    "speaker_speaking_time": {
+      "SPEAKER_01": 18.366000000000035,
+      "SPEAKER_00": 142.05200000000008
+    },
+    "average_pause_length": 0.17627705627705664,
+    "longest_pause": 1.801000000000002
+  },
+  "readability": {
+    "flesch_reading_ease": 77.70018826493883,
+    "flesch_kincaid_grade": 6.255781857451407
+  },
+  "keywords": {
+    "keywords": [
+      {
+        "keyword": "build this attitude",
+        "score": 0.042689662915046674
+      },
+      {
+        "keyword": "failures",
+        "score": 0.07595393352191691
+      },
+      {
+        "keyword": "failure",
+        "score": 0.09114472022630031
+      },
+      {
+        "keyword": "vision",
+        "score": 0.15129151583080763
+      },
+      {
+        "keyword": "panicking",
+        "score": 0.16268379474553313
+      },
+      {
+        "keyword": "start panicking",
+        "score": 0.17961737174506817
+      },
+      {
+        "keyword": "confident",
+        "score": 0.1817195129455587
+      },
+      {
+        "keyword": "attitude",
+        "score": 0.19655589097484957
+      },
+      {
+        "keyword": "skill",
+        "score": 0.20829631792141534
+      },
+      {
+        "keyword": "build",
+        "score": 0.20829631792141534
+      },
+      {
+        "keyword": "clear",
+        "score": 0.2222782959828803
+      },
+      {
+        "keyword": "wrong",
+        "score": 0.24868843345878408
+      },
+      {
+        "keyword": "thing",
+        "score": 0.25196168877958425
+      },
+      {
+        "keyword": "start",
+        "score": 0.27076237904993034
+      },
+      {
+        "keyword": "good",
+        "score": 0.2753766150487334
+      },
+      {
+        "keyword": "entrepreneur",
+        "score": 0.2795800215770999
+      },
+      {
+        "keyword": "people",
+        "score": 0.2828955453738954
+      },
+      {
+        "keyword": "listen",
+        "score": 0.2895493720700513
+      },
+      {
+        "keyword": "feel that confidence",
+        "score": 0.29529647613340493
+      },
+      {
+        "keyword": "sort",
+        "score": 0.3143517149852697
+      }
+    ]
+  },
+  "engagement": {
+    "score": 81.57064752835367
+  }
+}

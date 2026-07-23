@@ -1,0 +1,66 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial Bold,46,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:17.77,0:01:17.87,Default,,0,0,0,,{\c&HFFFFFF&}And
+Dialogue: 0,0:01:17.95,0:01:18.13,Default,,0,0,0,,{\c&HFFFFFF&}by
+Dialogue: 0,0:01:18.15,0:01:18.25,Default,,0,0,0,,{\c&HFFFFFF&}the
+Dialogue: 0,0:01:18.31,0:01:18.39,Default,,0,0,0,,{\c&HFFFFFF&}way,
+Dialogue: 0,0:01:18.43,0:01:18.53,Default,,0,0,0,,{\c&HFFFFFF&}I
+Dialogue: 0,0:01:18.57,0:01:18.81,Default,,0,0,0,,{\c&HFFFFFF&}told
+Dialogue: 0,0:01:18.87,0:01:19.05,Default,,0,0,0,,{\c&HFFFFFF&}some
+Dialogue: 0,0:01:19.19,0:01:19.53,Default,,0,0,0,,{\c&HFFFFFF&}another
+Dialogue: 0,0:01:19.61,0:01:20.31,Default,,0,0,0,,{\c&HFFFFFF&}entrepreneur
+Dialogue: 0,0:01:20.49,0:01:21.05,Default,,0,0,0,,{\c&HFFFFFF&}yesterday,
+Dialogue: 0,0:01:21.15,0:01:21.27,Default,,0,0,0,,{\c&HFFFFFF&}they
+Dialogue: 0,0:01:21.31,0:01:21.51,Default,,0,0,0,,{\c&HFFFFFF&}said,
+Dialogue: 0,0:01:21.61,0:01:21.73,Default,,0,0,0,,{\c&HFFFFFF&}you
+Dialogue: 0,0:01:21.75,0:01:21.97,Default,,0,0,0,,{\c&HFFFFFF&}know,
+Dialogue: 0,0:01:22.07,0:01:22.35,Default,,0,0,0,,{\c&HFFFFFF&}talked
+Dialogue: 0,0:01:22.37,0:01:22.59,Default,,0,0,0,,{\c&HFFFFFF&}about
+Dialogue: 0,0:01:22.69,0:01:23.11,Default,,0,0,0,,{\c&HFFFFFF&}failure.
+Dialogue: 0,0:01:23.97,0:01:24.03,Default,,0,0,0,,{\c&HFFFFFF&}I
+Dialogue: 0,0:01:24.07,0:01:24.23,Default,,0,0,0,,{\c&HFFFFFF&}said,
+Dialogue: 0,0:01:24.27,0:01:24.65,Default,,0,0,0,,{\c&HFFFFFF&}listen,
+Dialogue: 0,0:01:24.81,0:01:24.91,Default,,0,0,0,,{\c&HFFFFFF&}if
+Dialogue: 0,0:01:24.95,0:01:25.15,Default,,0,0,0,,{\c&HFFFFFF&}you
+Dialogue: 0,0:01:25.49,0:01:25.87,Default,,0,0,0,,{\c&HFFFFFF&}can't
+Dialogue: 0,0:01:25.99,0:01:26.31,Default,,0,0,0,,{\c&HFFFFFF&}face
+Dialogue: 0,0:01:26.41,0:01:26.83,Default,,0,0,0,,{\c&HFFFFFF&}failure,
+Dialogue: 0,0:01:26.87,0:01:26.99,Default,,0,0,0,,{\c&HFFFFFF&}then
+Dialogue: 0,0:01:27.01,0:01:27.19,Default,,0,0,0,,{\c&HFFFFFF&}you're
+Dialogue: 0,0:01:27.23,0:01:27.39,Default,,0,0,0,,{\c&HFFFFFF&}not
+Dialogue: 0,0:01:27.45,0:01:27.53,Default,,0,0,0,,{\c&HFFFFFF&}an
+Dialogue: 0,0:01:27.61,0:01:28.21,Default,,0,0,0,,{\c&HFFFFFF&}entrepreneur.
+Dialogue: 0,0:01:29.11,0:01:29.19,Default,,0,0,0,,{\c&HFFFFFF&}I
+Dialogue: 0,0:01:29.23,0:01:29.41,Default,,0,0,0,,{\c&HFFFFFF&}said
+Dialogue: 0,0:01:29.63,0:01:30.03,Default,,0,0,0,,{\c&HFFFFFF&}every
+Dialogue: 0,0:01:30.15,0:01:30.97,Default,,0,0,0,,{\c&HFFFFFF&}entrepreneurial
+Dialogue: 0,0:01:31.03,0:01:31.39,Default,,0,0,0,,{\c&HFFFFFF&}journey
+Dialogue: 0,0:01:31.43,0:01:31.61,Default,,0,0,0,,{\c&HFFFFFF&}will
+Dialogue: 0,0:01:31.65,0:01:31.77,Default,,0,0,0,,{\c&HFFFFFF&}have
+Dialogue: 0,0:01:31.83,0:01:32.35,Default,,0,0,0,,{\c&HFFFFFF&}mistakes.
+Dialogue: 0,0:01:33.19,0:01:33.49,Default,,0,0,0,,{\c&HFFFFFF&}Don't
+Dialogue: 0,0:01:33.55,0:01:33.73,Default,,0,0,0,,{\c&HFFFFFF&}think
+Dialogue: 0,0:01:33.77,0:01:33.91,Default,,0,0,0,,{\c&HFFFFFF&}that
+Dialogue: 0,0:01:33.99,0:01:34.29,Default,,0,0,0,,{\c&HFFFFFF&}because
+Dialogue: 0,0:01:34.31,0:01:34.45,Default,,0,0,0,,{\c&HFFFFFF&}you
+Dialogue: 0,0:01:34.49,0:01:34.65,Default,,0,0,0,,{\c&HFFFFFF&}see
+Dialogue: 0,0:01:34.69,0:01:34.81,Default,,0,0,0,,{\c&HFFFFFF&}me
+Dialogue: 0,0:01:34.89,0:01:35.27,Default,,0,0,0,,{\c&HFFFFFF&}today,
+Dialogue: 0,0:01:35.73,0:01:35.85,Default,,0,0,0,,{\c&HFFFFFF&}you
+Dialogue: 0,0:01:35.89,0:01:36.09,Default,,0,0,0,,{\c&HFFFFFF&}think
+Dialogue: 0,0:01:36.23,0:01:36.75,Default,,0,0,0,,{\c&HFFFFFF&}everything
+Dialogue: 0,0:01:36.79,0:01:36.93,Default,,0,0,0,,{\c&HFFFFFF&}has
+Dialogue: 0,0:01:36.97,0:01:37.13,Default,,0,0,0,,{\c&HFFFFFF&}been
+Dialogue: 0,0:01:37.17,0:01:37.21,Default,,0,0,0,,{\c&HFFFFFF&}a
+Dialogue: 0,0:01:37.27,0:01:37.61,Default,,0,0,0,,{\c&HFFFFFF&}smooth
+Dialogue: 0,0:01:37.67,0:01:37.97,Default,,0,0,0,,{\c&HFFFFFF&}sale.

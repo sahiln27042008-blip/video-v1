@@ -1,0 +1,45 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,44,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:09.18,0:00:09.36,Default,,0,0,0,,{\c&HFFFFFF&}See,
+Dialogue: 0,0:00:09.42,0:00:09.52,Default,,0,0,0,,{\c&HFFFFFF&}I
+Dialogue: 0,0:00:09.62,0:00:09.92,Default,,0,0,0,,{\c&HFFFFFF&}feel
+Dialogue: 0,0:00:10.00,0:00:10.18,Default,,0,0,0,,{\c&HFFFFFF&}that
+Dialogue: 0,0:00:10.30,0:00:11.02,Default,,0,0,0,,{\c&HFFFFFF&}confidence
+Dialogue: 0,0:00:11.12,0:00:11.42,Default,,0,0,0,,{\c&HFFFFFF&}comes
+Dialogue: 0,0:00:11.52,0:00:11.70,Default,,0,0,0,,{\c&HFFFFFF&}from
+Dialogue: 0,0:00:11.76,0:00:12.00,Default,,0,0,0,,{\c&HFFFFFF&}being
+Dialogue: 0,0:00:12.04,0:00:12.28,Default,,0,0,0,,{\c&HFFFFFF&}very
+Dialogue: 0,0:00:12.42,0:00:12.82,Default,,0,0,0,,{\c&HFFFFFF&}clear
+Dialogue: 0,0:00:13.02,0:00:13.10,Default,,0,0,0,,{\c&HFFFFFF&}in
+Dialogue: 0,0:00:13.14,0:00:13.28,Default,,0,0,0,,{\c&HFFFFFF&}your
+Dialogue: 0,0:00:13.34,0:00:13.60,Default,,0,0,0,,{\c&HFFFFFF&}mind,
+Dialogue: 0,0:00:14.46,0:00:14.72,Default,,0,0,0,,{\c&HFFFFFF&}right?
+Dialogue: 0,0:00:15.36,0:00:15.44,Default,,0,0,0,,{\c&HFFFFFF&}If
+Dialogue: 0,0:00:15.46,0:00:15.68,Default,,0,0,0,,{\c&HFFFFFF&}you
+Dialogue: 0,0:00:15.74,0:00:15.98,Default,,0,0,0,,{\c&HFFFFFF&}have
+Dialogue: 0,0:00:16.08,0:00:16.80,Default,,0,0,0,,{\c&HFFFFFF&}clarity
+Dialogue: 0,0:00:16.94,0:00:17.02,Default,,0,0,0,,{\c&HFFFFFF&}of
+Dialogue: 0,0:00:17.18,0:00:17.58,Default,,0,0,0,,{\c&HFFFFFF&}thought
+Dialogue: 0,0:00:17.69,0:00:17.78,Default,,0,0,0,,{\c&HFFFFFF&}and
+Dialogue: 0,0:00:17.85,0:00:18.21,Default,,0,0,0,,{\c&HFFFFFF&}vision
+Dialogue: 0,0:00:19.28,0:00:19.44,Default,,0,0,0,,{\c&HFFFFFF&}and
+Dialogue: 0,0:00:19.87,0:00:20.10,Default,,0,0,0,,{\c&HFFFFFF&}you're
+Dialogue: 0,0:00:20.14,0:00:20.39,Default,,0,0,0,,{\c&HFFFFFF&}only
+Dialogue: 0,0:00:20.48,0:00:20.98,Default,,0,0,0,,{\c&HFFFFFF&}focusing
+Dialogue: 0,0:00:21.07,0:00:21.15,Default,,0,0,0,,{\c&HFFFFFF&}on
+Dialogue: 0,0:00:21.29,0:00:22.01,Default,,0,0,0,,{\c&HFFFFFF&}executing
+Dialogue: 0,0:00:22.27,0:00:22.47,Default,,0,0,0,,{\c&HFFFFFF&}that
+Dialogue: 0,0:00:22.63,0:00:22.97,Default,,0,0,0,,{\c&HFFFFFF&}vision
+Dialogue: 0,0:00:23.07,0:00:23.37,Default,,0,0,0,,{\c&HFFFFFF&}or
+Dialogue: 0,0:00:25.17,0:00:25.37,Default,,0,0,0,,{\c&HFFFFFF&}that
+Dialogue: 0,0:00:25.41,0:00:25.89,Default,,0,0,0,,{\c&HFFFFFF&}purpose,

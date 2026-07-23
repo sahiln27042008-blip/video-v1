@@ -1,0 +1,10 @@
+{
+  "steps": {
+    "Scene Detection": true,
+    "Face Detection": true,
+    "Identity Tracking": true,
+    "Conversation (WhisperX)": true,
+    "Timeline Fusion": true
+  },
+  "last_updated": "2026-07-22T18:22:12.215786"
+}

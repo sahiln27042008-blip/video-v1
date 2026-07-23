@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Master orchestrator for Video Brain pipeline (Modules 01–06)."""
+"""Master orchestrator for Video Brain pipeline (Modules 01–07)."""
 
 import sys
 import os
@@ -40,6 +40,7 @@ try:
     from video_brain.modules._04_conversation_layer.src.models import ConversationResult
     from video_brain.modules._05_timeline_fusion.src.models import TimelineResult
     from video_brain.modules._06_metrics_layer.src.models import MetricsResult
+    from video_brain.modules._07_clip_selector.src.models import CandidateClipsResult
     MODELS_AVAILABLE = True
 except ImportError:
     MODELS_AVAILABLE = False
@@ -52,6 +53,7 @@ except ImportError:
     ConversationResult = None
     TimelineResult = None
     MetricsResult = None
+    CandidateClipsResult = None
 
 logger = logging.getLogger(__name__)
 
@@ -284,6 +286,20 @@ def get_pipeline_steps() -> List[PipelineStep]:
         validation_model=MetricsResult,
     ))
 
+    # Stage 7: Clip Selector (generates candidate_clips.json)
+    steps.append(PipelineStep(
+        name="Clip Selector",
+        module_path="video-brain/modules/07_clip_selector/main.py",
+        args=[
+            "{output_dir}/timeline_with_words.json",
+            "{output_dir}/segment_metrics.json",
+            "--output", "{output_dir}/candidate_clips.json",
+            "--top-k", "20"
+        ],
+        output_file="candidate_clips.json",
+        validation_model=CandidateClipsResult,
+    ))
+
     return steps
 
 # ------------------------------------------------------------------
@@ -351,7 +367,7 @@ def run_pipeline(config: PipelineConfig):
 # ------------------------------------------------------------------
 def main():
     import argparse
-    parser = argparse.ArgumentParser(description="Video Brain Pipeline")
+    parser = argparse.ArgumentParser(description="Video Brain Pipeline (Modules 01-07)")
     parser.add_argument("--input", "-i", required=True, help="Input video file path")
     parser.add_argument("--output", "-o", default="./output", help="Output directory")
     parser.add_argument("--whisper-model", default="tiny", help="Whisper model size (tiny, base, small, medium, large)")

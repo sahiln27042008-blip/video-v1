@@ -1,0 +1,441 @@
+{
+  "module": "clip_selector",
+  "version": "0.1.0",
+  "video": "/content/video-v1/video.mp4",
+  "candidates": [
+    {
+      "candidate_id": 1,
+      "start": "00:00:01.725",
+      "end": "00:00:08.426",
+      "duration": 6.7010000000000005,
+      "person": "person_1",
+      "speaker": "SPEAKER_01",
+      "segments": [
+        1
+      ],
+      "score": 83.17582231057824,
+      "keywords": [
+        "build this attitude",
+        "confident",
+        "attitude",
+        "skill",
+        "build"
+      ],
+      "transcript": "What would you tell somebody who has some skill in them, but they're not confident, how can they build this attitude?",
+      "reason": {
+        "engagement": 93.29361728662452,
+        "speech_density": 70.15370840173107,
+        "keywords": 100.0,
+        "duration": 100.0,
+        "readability": 0.0,
+        "vocabulary_richness": 100.0,
+        "filler_penalty": 0.0
+      }
+    },
+    {
+      "candidate_id": 2,
+      "start": "00:01:17.774",
+      "end": "00:01:37.977",
+      "duration": 20.204000000000008,
+      "person": "person_2",
+      "speaker": "SPEAKER_00",
+      "segments": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "score": 82.83598282064638,
+      "keywords": [
+        "smooth sale",
+        "talked about failure",
+        "face",
+        "journey",
+        "entrepreneurial"
+      ],
+      "transcript": "And by the way, I told some another entrepreneur yesterday, they said, you know, talked about failure. I said, listen, if you can't face failure, then you're not an entrepreneur. I said every entrepreneurial journey will have mistakes. Don't think that because you see me today, you think everything has been a smooth sale.",
+      "reason": {
+        "engagement": 92.85741462964222,
+        "speech_density": 76.61554763144032,
+        "keywords": 100.0,
+        "duration": 88.43555555555554,
+        "readability": 0.0,
+        "vocabulary_richness": 100.0,
+        "filler_penalty": 0.0
+      }
+    },
+    {
+      "candidate_id": 3,
+      "start": "00:01:52.284",
+      "end": "00:01:57.745",
+      "duration": 5.461000000000013,
+      "person": "person_2",
+      "speaker": "SPEAKER_00",
+      "segments": [
+        24
+      ],
+      "score": 81.94300056759158,
+      "keywords": [
+        "failure and make",
+        "failure",
+        "learn",
+        "make",
+        "happen"
+      ],
+      "transcript": "But when you had a failure, you have to learn from that failure and make sure it doesn't happen again.",
+      "reason": {
+        "engagement": 92.36990927858177,
+        "speech_density": 67.42354880058637,
+        "keywords": 100.0,
+        "duration": 100.0,
+        "readability": 0.0,
+        "vocabulary_richness": 95.0,
+        "filler_penalty": 0.0
+      }
+    },
+    {
+      "candidate_id": 4,
+      "start": "00:02:00.387",
+      "end": "00:02:11.971",
+      "duration": 11.584000000000003,
+      "person": "person_1",
+      "speaker": "SPEAKER_01",
+      "segments": [
+        26,
+        27
+      ],
+      "score": 81.80270633307931,
+      "keywords": [
+        "started",
+        "failures",
+        "started feeling grateful",
+        "stop feeling rejected",
+        "feeling grateful"
+      ],
+      "transcript": "At what point do you stop feeling rejected in the beginning of your career and started feeling grateful? Because thank God, because of those failures, he started by a coin.",
+      "reason": {
+        "engagement": 90.51067616075507,
+        "speech_density": 71.19683488247065,
+        "keywords": 100.0,
+        "duration": 100.0,
+        "readability": 0.0,
+        "vocabulary_richness": 94.44444444444444,
+        "filler_penalty": 0.0
+      }
+    },
+    {
+      "candidate_id": 5,
+      "start": "00:00:57.189",
+      "end": "00:01:08.905",
+      "duration": 11.716000000000001,
+      "person": "person_2",
+      "speaker": "SPEAKER_00",
+      "segments": [
+        9,
+        10
+      ],
+      "score": 81.10282148327317,
+      "keywords": [
+        "wrong",
+        "people listen",
+        "thing goes wrong",
+        "listen",
+        "suddenly start"
+      ],
+      "transcript": "But suddenly start panicking when the first thing goes wrong. And I'm telling these people listen, are you sure that this is what your business has to be?",
+      "reason": {
+        "engagement": 89.94384551724579,
+        "speech_density": 64.14983701491434,
+        "keywords": 100.0,
+        "duration": 100.0,
+        "readability": 0.0,
+        "vocabulary_richness": 100.0,
+        "filler_penalty": 0.0
+      }
+    },
+    {
+      "candidate_id": 6,
+      "start": "00:00:47.871",
+      "end": "00:00:55.856",
+      "duration": 7.984999999999999,
+      "person": "person_2",
+      "speaker": "SPEAKER_00",
+      "segments": [
+        8
+      ],
+      "score": 80.58956234909196,
+      "keywords": [
+        "sort of objective",
+        "objective and goals",
+        "good vision",
+        "lot of young",
+        "young entrepreneurs"
+      ],
+      "transcript": "I've seen a lot of young entrepreneurs who come with a good vision, come with a good, you know, sort of objective and goals.",
+      "reason": {
+        "engagement": 92.2794783161878,
+        "speech_density": 69.16718847839712,
+        "keywords": 100.0,
+        "duration": 100.0,
+        "readability": 0.0,
+        "vocabulary_richness": 79.16666666666666,
+        "filler_penalty": 0.0
+      }
+    },
+    {
+      "candidate_id": 7,
+      "start": "00:02:23.013",
+      "end": "00:02:42.782",
+      "duration": 19.768999999999977,
+      "person": "person_2",
+      "speaker": "SPEAKER_00",
+      "segments": [
+        31,
+        32,
+        33
+      ],
+      "score": 79.90242501300784,
+      "keywords": [
+        "thing of assuming",
+        "failures",
+        "anticipate",
+        "assuming",
+        "thing"
+      ],
+      "transcript": "I mean, I've, you know, haven't many failures. I mean, even this whole thing of assuming that my acquisition will be well-rewarded and well-accepted, it was completely different, right? And that, for me, was a failure to even anticipate that this is how they would take to my acquisition.",
+      "reason": {
+        "engagement": 90.24382738624072,
+        "speech_density": 62.51242137067571,
+        "keywords": 100.0,
+        "duration": 89.40222222222228,
+        "readability": 0.0,
+        "vocabulary_richness": 100.0,
+        "filler_penalty": 0.0
+      }
+    },
+    {
+      "candidate_id": 8,
+      "start": "00:00:31.800",
+      "end": "00:00:44.810",
+      "duration": 13.010000000000002,
+      "person": "person_2",
+      "speaker": "SPEAKER_00",
+      "segments": [
+        6
+      ],
+      "score": 79.08139024599306,
+      "keywords": [
+        "real problem",
+        "time and hoping",
+        "hoping that things",
+        "clear",
+        "wrong"
+      ],
+      "transcript": "But if you're not very clear, and if you're approximating all the time and hoping that things will go right, then I know that when it goes wrong, you'll have a real problem.",
+      "reason": {
+        "engagement": 88.41519360273796,
+        "speech_density": 62.32129131437334,
+        "keywords": 100.0,
+        "duration": 100.0,
+        "readability": 0.0,
+        "vocabulary_richness": 87.87878787878788,
+        "filler_penalty": 0.0
+      }
+    },
+    {
+      "candidate_id": 9,
+      "start": "00:00:09.185",
+      "end": "00:00:25.890",
+      "duration": 16.705,
+      "person": "person_2",
+      "speaker": "SPEAKER_00",
+      "segments": [
+        2,
+        3
+      ],
+      "score": 78.32392501614848,
+      "keywords": [
+        "purpose",
+        "focusing on executing",
+        "thought and vision",
+        "feel",
+        "clear"
+      ],
+      "transcript": "See, I feel that confidence comes from being very clear in your mind, right? If you have clarity of thought and vision and you're only focusing on executing that vision or that purpose,",
+      "reason": {
+        "engagement": 85.20544513662277,
+        "speech_density": 59.206054048129396,
+        "keywords": 100.0,
+        "duration": 96.21111111111111,
+        "readability": 0.0,
+        "vocabulary_richness": 100.0,
+        "filler_penalty": 0.0
+      }
+    },
+    {
+      "candidate_id": 10,
+      "start": "00:02:13.288",
+      "end": "00:02:20.431",
+      "duration": 7.143000000000001,
+      "person": "person_2",
+      "speaker": "SPEAKER_00",
+      "segments": [
+        28,
+        29
+      ],
+      "score": 77.09813879597277,
+      "keywords": [
+        "grateful for failures",
+        "grateful",
+        "failures"
+      ],
+      "transcript": "No, I've had many failures along the way. I'm not saying I'm grateful for failures, because nobody likes failures.",
+      "reason": {
+        "engagement": 93.13206802267214,
+        "speech_density": 83.34609992025023,
+        "keywords": 60.0,
+        "duration": 100.0,
+        "readability": 0.0,
+        "vocabulary_richness": 100.0,
+        "filler_penalty": 0.0
+      }
+    },
+    {
+      "candidate_id": 11,
+      "start": "00:03:06.967",
+      "end": "00:03:11.336",
+      "duration": 4.369,
+      "person": "person_2",
+      "speaker": "SPEAKER_00",
+      "segments": [
+        36
+      ],
+      "score": 76.94333716954291,
+      "keywords": [
+        "sort of fault",
+        "sort",
+        "fault",
+        "explain"
+      ],
+      "transcript": "and I cannot just sort of fault them because they I have to explain it better.",
+      "reason": {
+        "engagement": 92.5327982389342,
+        "speech_density": 75.23460746166185,
+        "keywords": 80.0,
+        "duration": 78.96666666666667,
+        "readability": 0.0,
+        "vocabulary_richness": 93.75,
+        "filler_penalty": 0.0
+      }
+    },
+    {
+      "candidate_id": 12,
+      "start": "00:02:44.033",
+      "end": "00:03:05.914",
+      "duration": 21.881,
+      "person": "person_2",
+      "speaker": "SPEAKER_00",
+      "segments": [
+        34,
+        35
+      ],
+      "score": 76.47196785839252,
+      "keywords": [
+        "perceive",
+        "fickle",
+        "investors",
+        "unfair",
+        "business"
+      ],
+      "transcript": "So I will learn from that, saying, okay, this is the way we have to deal with markets and investors, you know, that I can't just constantly say why have they been so unfair, why have they been so fickle, why are they, you know, looking at it in this way? But I have to understand how they perceive this business, right?",
+      "reason": {
+        "engagement": 81.36617686755896,
+        "speech_density": 64.13127506270922,
+        "keywords": 100.0,
+        "duration": 84.7088888888889,
+        "readability": 0.0,
+        "vocabulary_richness": 100.0,
+        "filler_penalty": 0.09677419354838711
+      }
+    },
+    {
+      "candidate_id": 13,
+      "start": "00:01:46.819",
+      "end": "00:01:50.822",
+      "duration": 4.0020000000000095,
+      "person": "person_2",
+      "speaker": "SPEAKER_00",
+      "segments": [
+        23
+      ],
+      "score": 71.67200925550716,
+      "keywords": [
+        "fact",
+        "success",
+        "granted"
+      ],
+      "transcript": "In fact, even when you have a success, it is not to be taken for granted.",
+      "reason": {
+        "engagement": 90.08403015673596,
+        "speech_density": 76.46176911544144,
+        "keywords": 60.0,
+        "duration": 66.73333333333366,
+        "readability": 0.0,
+        "vocabulary_richness": 100.0,
+        "filler_penalty": 0.0
+      }
+    },
+    {
+      "candidate_id": 14,
+      "start": "00:01:40.259",
+      "end": "00:01:43.920",
+      "duration": 3.6610000000000014,
+      "person": "person_2",
+      "speaker": "SPEAKER_00",
+      "segments": [
+        21
+      ],
+      "score": 70.54159562828214,
+      "keywords": [
+        "successes",
+        "learned",
+        "mistakes"
+      ],
+      "transcript": "I think I've learned much more from mistakes than from successes.",
+      "reason": {
+        "engagement": 92.44486420311068,
+        "speech_density": 77.05544933078424,
+        "keywords": 60.0,
+        "duration": 55.36666666666671,
+        "readability": 0.0,
+        "vocabulary_richness": 90.9090909090909,
+        "filler_penalty": 0.0
+      }
+    },
+    {
+      "candidate_id": 15,
+      "start": "00:00:27.236",
+      "end": "00:00:29.600",
+      "duration": 2.363000000000003,
+      "person": "person_2",
+      "speaker": "SPEAKER_00",
+      "segments": [
+        4
+      ],
+      "score": 59.06856777016661,
+      "keywords": [
+        "doubt"
+      ],
+      "transcript": "Then I think you don't have self doubt.",
+      "reason": {
+        "engagement": 94.44144325119832,
+        "speech_density": 72.02708421498124,
+        "keywords": 20.0,
+        "duration": 12.100000000000104,
+        "readability": 0.0,
+        "vocabulary_richness": 100.0,
+        "filler_penalty": 0.0
+      }
+    }
+  ]
+}

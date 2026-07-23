@@ -35,7 +35,8 @@ class TimelineResult(BaseModel):
     video: str = Field(..., description="Path to input video")
     segments: List[TimelineSegment] = Field(..., description="Fused timeline segments")
 
-    model_config = ConfigDict(frozen=True)
+    # Allow video field to be set after creation
+    model_config = ConfigDict(frozen=False)
 
 class PersonInfo(BaseModel):
     """Canonical person with associated face IDs, speaker, and segments."""

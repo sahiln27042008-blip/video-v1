@@ -1,0 +1,148 @@
+{
+  "module": "creative_director",
+  "version": "1.0.0",
+  "video": "video.mp4",
+  "summary": {
+    "total_candidates": 15,
+    "selected": 8,
+    "overall_reasoning": "Selected 8 clips that together create a complete journey: starting with the core question about building confidence, then providing the foundational answer (clarity), introducing the risk of panic, sharing a personal entrepreneurial failure story, distilling the key lesson (learn from mistakes), reminding that success is not guaranteed, offering practical advice on dealing with external perception, and ending with a grateful perspective. Each clip is strong on its own, has a clear hook, and contributes a unique angle without unnecessary overlap."
+  },
+  "selected_clips": [
+    {
+      "clip_id": 1,
+      "rank": 1,
+      "score": 95,
+      "confidence": 0.95,
+      "reasoning": [
+        "Strong opening hook that poses a relatable question.",
+        "Creates immediate curiosity and sets up the entire video's theme."
+      ],
+      "recommended_title": "How to Build Confidence When You Have Skill but No Belief?",
+      "hook": "What would you tell somebody who has skill but isn't confident?",
+      "primary_emotion": "Curiosity",
+      "audience": "Aspiring entrepreneurs, people with imposter syndrome",
+      "platforms": ["YouTube Shorts", "Instagram Reels", "TikTok"],
+      "strengths": ["Universal question", "High engagement score", "Natural beginning"],
+      "weaknesses": ["Requires a follow-up answer to complete the thought"]
+    },
+    {
+      "clip_id": 9,
+      "rank": 2,
+      "score": 92,
+      "confidence": 0.93,
+      "reasoning": [
+        "Directly answers the opening question with a clear, actionable insight.",
+        "The idea that confidence comes from clarity is both simple and profound."
+      ],
+      "recommended_title": "The #1 Secret to Confidence: Clarity of Thought",
+      "hook": "Confidence comes from being very clear in your mind.",
+      "primary_emotion": "Enlightenment",
+      "audience": "Anyone seeking self-improvement, entrepreneurs",
+      "platforms": ["YouTube Shorts", "Instagram Reels", "TikTok"],
+      "strengths": ["Core message", "Easy to remember", "Positive framing"],
+      "weaknesses": ["Somewhat philosophical, may need context"]
+    },
+    {
+      "clip_id": 5,
+      "rank": 3,
+      "score": 90,
+      "confidence": 0.92,
+      "reasoning": [
+        "Introduces tension and a common pitfall: panic when things go wrong.",
+        "Ends with a powerful question that forces self-reflection."
+      ],
+      "recommended_title": "Stop Panicking When Things Go Wrong – Ask Yourself This",
+      "hook": "But suddenly start panicking when the first thing goes wrong.",
+      "primary_emotion": "Urgency",
+      "audience": "Entrepreneurs, managers, anyone facing uncertainty",
+      "platforms": ["YouTube Shorts", "Instagram Reels", "TikTok"],
+      "strengths": ["Dramatic contrast", "Direct call to action", "Relatable"],
+      "weaknesses": ["May feel negative if not paired with solution"]
+    },
+    {
+      "clip_id": 2,
+      "rank": 4,
+      "score": 94,
+      "confidence": 0.96,
+      "reasoning": [
+        "A powerful personal anecdote that makes the advice tangible.",
+        "The statement 'if you can't face failure, then you're not an entrepreneur' is memorable and shareable."
+      ],
+      "recommended_title": "The Entrepreneur's Mindset: Face Failure or Quit",
+      "hook": "I said, listen, if you can't face failure, then you're not an entrepreneur.",
+      "primary_emotion": "Inspiration",
+      "audience": "Entrepreneurs, startup founders, business students",
+      "platforms": ["YouTube Shorts", "Instagram Reels", "TikTok"],
+      "strengths": ["Authentic story", "Strong punchline", "High engagement"],
+      "weaknesses": ["Slightly longer, but pacing is good"]
+    },
+    {
+      "clip_id": 14,
+      "rank": 5,
+      "score": 91,
+      "confidence": 0.94,
+      "reasoning": [
+        "A succinct, quotable line that encapsulates a key lesson.",
+        "Perfect for a standalone short with high shareability."
+      ],
+      "recommended_title": "I've Learned More from Mistakes Than Successes",
+      "hook": "I think I've learned much more from mistakes than from successes.",
+      "primary_emotion": "Reflection",
+      "audience": "Anyone who has experienced failure, students, professionals",
+      "platforms": ["YouTube Shorts", "Instagram Reels", "TikTok"],
+      "strengths": ["Concise", "Memorable", "High relatability"],
+      "weaknesses": ["Lacks context but stands alone well"]
+    },
+    {
+      "clip_id": 13,
+      "rank": 6,
+      "score": 88,
+      "confidence": 0.90,
+      "reasoning": [
+        "A humble reminder that success is never guaranteed, adding depth.",
+        "Balances the earlier focus on failure with a perspective on success."
+      ],
+      "recommended_title": "Success Is Never to Be Taken for Granted",
+      "hook": "In fact, even when you have a success, it is not to be taken for granted.",
+      "primary_emotion": "Humility",
+      "audience": "High achievers, entrepreneurs, professionals",
+      "platforms": ["YouTube Shorts", "Instagram Reels", "TikTok"],
+      "strengths": ["Wise", "Contrasting emotion", "Short"],
+      "weaknesses": ["May feel abstract without context"]
+    },
+    {
+      "clip_id": 12,
+      "rank": 7,
+      "score": 87,
+      "confidence": 0.89,
+      "reasoning": [
+        "Offers a practical, advanced lesson on dealing with investors and markets.",
+        "Shows a mature, adaptive mindset beyond just facing failure."
+      ],
+      "recommended_title": "How to Handle Investors When They Don't Get Your Business",
+      "hook": "I have to understand how they perceive this business.",
+      "primary_emotion": "Determination",
+      "audience": "Startup founders, business owners, anyone pitching ideas",
+      "platforms": ["YouTube Shorts", "Instagram Reels", "TikTok"],
+      "strengths": ["Actionable advice", "Specific audience", "Problem-solution"],
+      "weaknesses": ["More niche, but valuable"]
+    },
+    {
+      "clip_id": 4,
+      "rank": 8,
+      "score": 86,
+      "confidence": 0.88,
+      "reasoning": [
+        "Brings an emotional and grateful closure to the journey.",
+        "Shifts from frustration to gratitude, a powerful character arc."
+      ],
+      "recommended_title": "From Rejection to Gratitude – The Turning Point",
+      "hook": "At what point do you stop feeling rejected and started feeling grateful?",
+      "primary_emotion": "Gratitude",
+      "audience": "Anyone overcoming rejection, aspiring entrepreneurs",
+      "platforms": ["YouTube Shorts", "Instagram Reels", "TikTok"],
+      "strengths": ["Emotional resonance", "Story arc", "Relatable"],
+      "weaknesses": ["More personal, may not fit every viewer"]
+    }
+  ]
+}

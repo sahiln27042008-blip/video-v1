@@ -1,0 +1,552 @@
+{
+  "video": "/content/video-v1/video.mp4",
+  "people": [
+    {
+      "person_id": "person_1",
+      "first_seen": "00:00:05.319",
+      "last_seen": "00:03:17.180",
+      "appearances": 11
+    },
+    {
+      "person_id": "person_2",
+      "first_seen": "00:00:16.179",
+      "last_seen": "00:02:57.599",
+      "appearances": 11
+    },
+    {
+      "person_id": "person_3",
+      "first_seen": "00:00:16.179",
+      "last_seen": "00:02:27.598",
+      "appearances": 6
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "start": "00:00:00.000",
+      "end": "00:00:01.600",
+      "people": []
+    },
+    {
+      "id": 2,
+      "start": "00:00:01.600",
+      "end": "00:00:09.039",
+      "people": [
+        {
+          "person_id": "person_1",
+          "bbox": [
+            251.0,
+            93.0,
+            98.0,
+            128.0
+          ],
+          "confidence": 0.8782774806022644,
+          "embedding_similarity": 0.9083309173583984
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": "00:00:09.039",
+      "end": "00:00:23.320",
+      "people": [
+        {
+          "person_id": "person_2",
+          "bbox": [
+            392.0,
+            82.0,
+            67.0,
+            90.0
+          ],
+          "confidence": 0.896550178527832,
+          "embedding_similarity": 0.9222646951675415
+        },
+        {
+          "person_id": "person_3",
+          "bbox": [
+            18.0,
+            109.0,
+            28.0,
+            33.0
+          ],
+          "confidence": 0.7227974534034729,
+          "embedding_similarity": 0.8868875503540039
+        },
+        {
+          "person_id": "person_2",
+          "bbox": [
+            368.0,
+            74.0,
+            71.0,
+            100.0
+          ],
+          "confidence": 0.8468297123908997,
+          "embedding_similarity": 0.9222646951675415
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": "00:00:23.320",
+      "end": "00:00:39.359",
+      "people": [
+        {
+          "person_id": "person_2",
+          "bbox": [
+            422.0,
+            59.0,
+            91.0,
+            130.0
+          ],
+          "confidence": 0.8767892122268677,
+          "embedding_similarity": 0.9303585290908813
+        },
+        {
+          "person_id": "person_1",
+          "bbox": [
+            143.0,
+            86.0,
+            96.0,
+            119.0
+          ],
+          "confidence": 0.8778189420700073,
+          "embedding_similarity": 0.913610577583313
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": "00:00:39.359",
+      "end": "00:01:02.320",
+      "people": [
+        {
+          "person_id": "person_2",
+          "bbox": [
+            290.0,
+            65.0,
+            92.0,
+            132.0
+          ],
+          "confidence": 0.886448085308075,
+          "embedding_similarity": 0.913152813911438
+        },
+        {
+          "person_id": "person_2",
+          "bbox": [
+            248.0,
+            56.0,
+            92.0,
+            133.0
+          ],
+          "confidence": 0.8391125202178955,
+          "embedding_similarity": 0.913152813911438
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": "00:01:02.320",
+      "end": "00:01:03.960",
+      "people": [
+        {
+          "person_id": "person_1",
+          "bbox": [
+            234.0,
+            67.0,
+            76.0,
+            92.0
+          ],
+          "confidence": 0.8479346632957458,
+          "embedding_similarity": 0.9047628045082092
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": "00:01:03.960",
+      "end": "00:01:13.920",
+      "people": [
+        {
+          "person_id": "person_2",
+          "bbox": [
+            363.0,
+            87.0,
+            67.0,
+            96.0
+          ],
+          "confidence": 0.8726357817649841,
+          "embedding_similarity": 0.9397793412208557
+        },
+        {
+          "person_id": "person_3",
+          "bbox": [
+            18.0,
+            108.0,
+            29.0,
+            34.0
+          ],
+          "confidence": 0.727367103099823,
+          "embedding_similarity": 0.9238497018814087
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": "00:01:13.920",
+      "end": "00:01:15.560",
+      "people": [
+        {
+          "person_id": "person_1",
+          "bbox": [
+            264.0,
+            64.0,
+            99.0,
+            122.0
+          ],
+          "confidence": 0.863174557685852,
+          "embedding_similarity": 0.8892678022384644
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": "00:01:15.560",
+      "end": "00:01:21.000",
+      "people": [
+        {
+          "person_id": "person_2",
+          "bbox": [
+            278.0,
+            59.0,
+            91.0,
+            133.0
+          ],
+          "confidence": 0.8735140562057495,
+          "embedding_similarity": 0.8594383001327515
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": "00:01:21.000",
+      "end": "00:01:23.799",
+      "people": [
+        {
+          "person_id": "person_1",
+          "bbox": [
+            251.0,
+            73.0,
+            94.0,
+            119.0
+          ],
+          "confidence": 0.8405836820602417,
+          "embedding_similarity": 0.8847417831420898
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": "00:01:23.799",
+      "end": "00:01:27.840",
+      "people": [
+        {
+          "person_id": "person_2",
+          "bbox": [
+            293.0,
+            63.0,
+            94.0,
+            128.0
+          ],
+          "confidence": 0.8805649280548096,
+          "embedding_similarity": 0.9122157692909241
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": "00:01:27.840",
+      "end": "00:01:29.040",
+      "people": [
+        {
+          "person_id": "person_1",
+          "bbox": [
+            251.0,
+            74.0,
+            95.0,
+            118.0
+          ],
+          "confidence": 0.8437939286231995,
+          "embedding_similarity": 0.8647727370262146
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start": "00:01:29.040",
+      "end": "00:01:38.079",
+      "people": [
+        {
+          "person_id": "person_2",
+          "bbox": [
+            379.0,
+            75.0,
+            69.0,
+            99.0
+          ],
+          "confidence": 0.8678152561187744,
+          "embedding_similarity": 0.9050585627555847
+        },
+        {
+          "person_id": "person_3",
+          "bbox": [
+            18.0,
+            107.0,
+            29.0,
+            34.0
+          ],
+          "confidence": 0.7291932106018066,
+          "embedding_similarity": 0.9328335523605347
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "start": "00:01:38.079",
+      "end": "00:01:39.680",
+      "people": [
+        {
+          "person_id": "person_1",
+          "bbox": [
+            228.0,
+            63.0,
+            76.0,
+            97.0
+          ],
+          "confidence": 0.8575584888458252,
+          "embedding_similarity": 0.9390078783035278
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "start": "00:01:39.680",
+      "end": "00:01:44.159",
+      "people": [
+        {
+          "person_id": "person_2",
+          "bbox": [
+            378.0,
+            76.0,
+            69.0,
+            97.0
+          ],
+          "confidence": 0.8773418664932251,
+          "embedding_similarity": 0.9409096837043762
+        },
+        {
+          "person_id": "person_3",
+          "bbox": [
+            18.0,
+            107.0,
+            29.0,
+            37.0
+          ],
+          "confidence": 0.7428054213523865,
+          "embedding_similarity": 0.920141339302063
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "start": "00:01:44.159",
+      "end": "00:01:46.519",
+      "people": [
+        {
+          "person_id": "person_1",
+          "bbox": [
+            230.0,
+            62.0,
+            77.0,
+            94.0
+          ],
+          "confidence": 0.8612661361694336,
+          "embedding_similarity": 0.9276950359344482
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "start": "00:01:46.519",
+      "end": "00:01:57.799",
+      "people": [
+        {
+          "person_id": "person_2",
+          "bbox": [
+            371.0,
+            82.0,
+            69.0,
+            95.0
+          ],
+          "confidence": 0.874747097492218,
+          "embedding_similarity": 0.9345128536224365
+        },
+        {
+          "person_id": "person_3",
+          "bbox": [
+            18.0,
+            108.0,
+            29.0,
+            33.0
+          ],
+          "confidence": 0.6884808540344238,
+          "embedding_similarity": 0.9174121618270874
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "start": "00:01:57.799",
+      "end": "00:02:12.879",
+      "people": [
+        {
+          "person_id": "person_1",
+          "bbox": [
+            293.0,
+            76.0,
+            77.0,
+            97.0
+          ],
+          "confidence": 0.8482565879821777,
+          "embedding_similarity": 0.8466302156448364
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "start": "00:02:12.879",
+      "end": "00:02:42.319",
+      "people": [
+        {
+          "person_id": "person_2",
+          "bbox": [
+            386.0,
+            82.0,
+            67.0,
+            91.0
+          ],
+          "confidence": 0.8960638046264648,
+          "embedding_similarity": 0.9175887107849121
+        },
+        {
+          "person_id": "person_3",
+          "bbox": [
+            18.0,
+            107.0,
+            28.0,
+            34.0
+          ],
+          "confidence": 0.7211084365844727,
+          "embedding_similarity": 0.8274677395820618
+        },
+        {
+          "person_id": "person_2",
+          "bbox": [
+            395.0,
+            83.0,
+            69.0,
+            90.0
+          ],
+          "confidence": 0.8854747414588928,
+          "embedding_similarity": 0.9175887107849121
+        },
+        {
+          "person_id": "person_2",
+          "bbox": [
+            357.0,
+            76.0,
+            67.0,
+            95.0
+          ],
+          "confidence": 0.8559517860412598,
+          "embedding_similarity": 0.9175887107849121
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "start": "00:02:42.319",
+      "end": "00:02:43.919",
+      "people": [
+        {
+          "person_id": "person_1",
+          "bbox": [
+            256.0,
+            67.0,
+            98.0,
+            123.0
+          ],
+          "confidence": 0.8745802640914917,
+          "embedding_similarity": 0.9016896486282349
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "start": "00:02:43.919",
+      "end": "00:03:11.280",
+      "people": [
+        {
+          "person_id": "person_2",
+          "bbox": [
+            302.0,
+            63.0,
+            93.0,
+            129.0
+          ],
+          "confidence": 0.8887587785720825,
+          "embedding_similarity": 0.9115885496139526
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "start": "00:03:11.280",
+      "end": "00:03:23.080",
+      "people": [
+        {
+          "person_id": "person_1",
+          "bbox": [
+            270.0,
+            47.0,
+            69.0,
+            85.0
+          ],
+          "confidence": 0.8796201944351196,
+          "embedding_similarity": 0.7296340465545654
+        },
+        {
+          "person_id": "person_1",
+          "bbox": [
+            294.0,
+            52.0,
+            70.0,
+            90.0
+          ],
+          "confidence": 0.9162725210189819,
+          "embedding_similarity": 0.7296340465545654
+        },
+        {
+          "person_id": "person_1",
+          "bbox": [
+            316.0,
+            40.0,
+            69.0,
+            89.0
+          ],
+          "confidence": 0.8881072998046875,
+          "embedding_similarity": 0.7296340465545654
+        }
+      ]
+    }
+  ]
+}

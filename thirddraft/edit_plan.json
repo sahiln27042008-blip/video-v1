@@ -1,0 +1,564 @@
+{
+  "module": "editor",
+  "version": "1.0.0",
+  "video": "video.mp4",
+  "clip_edits": [
+    {
+      "clip_id": 1,
+      "style": {
+        "editing_style": "Interview",
+        "pacing": "Moderate",
+        "energy": "Curious, engaging"
+      },
+      "captions": {
+        "style": "Standard",
+        "font": "Arial Bold",
+        "animation": "Fade in, word-by-word",
+        "emphasis_color": "#FFD700",
+        "highlight_words": ["build this attitude", "confident", "skill"],
+        "positioning": "Bottom-center"
+      },
+      "camera": {
+        "zoom_events": [
+          {
+            "time": "00:00:02.000",
+            "action": "Punch-in 15%",
+            "duration": 0.5
+          },
+          {
+            "time": "00:00:05.500",
+            "action": "Punch-out to original",
+            "duration": 0.5
+          }
+        ],
+        "punch_ins": [
+          {
+            "time": "00:00:04.000",
+            "target": "face",
+            "scale": 1.2,
+            "duration": 1.0
+          }
+        ],
+        "punch_outs": [],
+        "digital_pans": [],
+        "reframing": "Center face in frame"
+      },
+      "sound_design": {
+        "background_music": "Ambient, soft piano",
+        "music_intensity": "Low",
+        "fade_points": ["Fade in at start", "Fade out at end"],
+        "sound_effects": [
+          {
+            "time": "00:00:01.725",
+            "type": "Whoosh",
+            "intensity": "Subtle"
+          }
+        ],
+        "silence_moments": []
+      },
+      "visual_language": {
+        "b_roll": [],
+        "overlays": [],
+        "graphics": [],
+        "emojis": [],
+        "icons": [],
+        "lower_thirds": [
+          {
+            "time": "00:00:01.725",
+            "text": "Question",
+            "position": "Top-left"
+          }
+        ]
+      },
+      "retention": {
+        "drop_off_moments": [
+          {
+            "time": "00:00:03.000",
+            "reason": "Long question, may lose attention",
+            "fix": "Increase subtitle scale by 20%"
+          }
+        ]
+      },
+      "emotional_curve": {
+        "beginning": "Curiosity",
+        "middle": "Engagement",
+        "ending": "Anticipation"
+      },
+      "hook": {
+        "strengthen": true,
+        "method": "Punch-in on 'What would you tell' and bold captions"
+      },
+      "ending": "Question"
+    },
+    {
+      "clip_id": 9,
+      "style": {
+        "editing_style": "Educational",
+        "pacing": "Slow",
+        "energy": "Calm, instructional"
+      },
+      "captions": {
+        "style": "Clean",
+        "font": "Arial",
+        "animation": "Fade in",
+        "emphasis_color": "#00BFFF",
+        "highlight_words": ["confidence", "clear", "mind"],
+        "positioning": "Bottom-center"
+      },
+      "camera": {
+        "zoom_events": [
+          {
+            "time": "00:00:10.000",
+            "action": "Slow zoom-in 10%",
+            "duration": 2.0
+          }
+        ],
+        "punch_ins": [],
+        "punch_outs": [],
+        "digital_pans": [],
+        "reframing": "Stable"
+      },
+      "sound_design": {
+        "background_music": "Ambient, calm",
+        "music_intensity": "Low",
+        "fade_points": ["Fade in at start"],
+        "sound_effects": [],
+        "silence_moments": []
+      },
+      "visual_language": {
+        "b_roll": [],
+        "overlays": [],
+        "graphics": [],
+        "emojis": [],
+        "icons": [],
+        "lower_thirds": []
+      },
+      "retention": {
+        "drop_off_moments": [
+          {
+            "time": "00:00:12.000",
+            "reason": "Slow pacing, may lose interest",
+            "fix": "Increase word emphasis animation speed"
+          }
+        ]
+      },
+      "emotional_curve": {
+        "beginning": "Calm",
+        "middle": "Enlightenment",
+        "ending": "Confident"
+      },
+      "hook": {
+        "strengthen": true,
+        "method": "Bold caption on 'confidence comes from being very clear'"
+      },
+      "ending": "Fade"
+    },
+    {
+      "clip_id": 5,
+      "style": {
+        "editing_style": "Motivational",
+        "pacing": "Fast",
+        "energy": "Intense, urgent"
+      },
+      "captions": {
+        "style": "Bold",
+        "font": "Arial Black",
+        "animation": "Pop-in",
+        "emphasis_color": "#FF4500",
+        "highlight_words": ["start panicking", "wrong", "business"],
+        "positioning": "Center"
+      },
+      "camera": {
+        "zoom_events": [
+          {
+            "time": "00:00:57.500",
+            "action": "Punch-in 20%",
+            "duration": 0.3
+          }
+        ],
+        "punch_ins": [
+          {
+            "time": "00:01:02.000",
+            "target": "face",
+            "scale": 1.3,
+            "duration": 0.8
+          }
+        ],
+        "punch_outs": [],
+        "digital_pans": [],
+        "reframing": "Dynamic"
+      },
+      "sound_design": {
+        "background_music": "Tense, rhythmic",
+        "music_intensity": "High",
+        "fade_points": [],
+        "sound_effects": [
+          {
+            "time": "00:00:57.189",
+            "type": "Impact",
+            "intensity": "Strong"
+          }
+        ],
+        "silence_moments": []
+      },
+      "visual_language": {
+        "b_roll": [],
+        "overlays": [],
+        "graphics": [],
+        "emojis": [],
+        "icons": [],
+        "lower_thirds": []
+      },
+      "retention": {
+        "drop_off_moments": [
+          {
+            "time": "00:01:04.000",
+            "reason": "Question may cause drop-off",
+            "fix": "Add a pause before question"
+          }
+        ]
+      },
+      "emotional_curve": {
+        "beginning": "Tension",
+        "middle": "Urgency",
+        "ending": "Reflection"
+      },
+      "hook": {
+        "strengthen": true,
+        "method": "Punch-in on 'suddenly start panicking'"
+      },
+      "ending": "Question"
+    },
+    {
+      "clip_id": 2,
+      "style": {
+        "editing_style": "Storytelling",
+        "pacing": "Moderate to fast",
+        "energy": "Inspirational"
+      },
+      "captions": {
+        "style": "Standard with emphasis",
+        "font": "Arial Bold",
+        "animation": "Word-by-word with color changes",
+        "emphasis_color": "#FFD700",
+        "highlight_words": ["entrepreneur", "failure", "mistakes", "smooth sale"],
+        "positioning": "Bottom-center"
+      },
+      "camera": {
+        "zoom_events": [
+          {
+            "time": "00:01:18.000",
+            "action": "Slow zoom-in 10%",
+            "duration": 1.5
+          }
+        ],
+        "punch_ins": [
+          {
+            "time": "00:01:24.000",
+            "target": "face",
+            "scale": 1.15,
+            "duration": 1.0
+          }
+        ],
+        "punch_outs": [],
+        "digital_pans": [],
+        "reframing": "Center"
+      },
+      "sound_design": {
+        "background_music": "Cinematic, hopeful",
+        "music_intensity": "Medium",
+        "fade_points": [],
+        "sound_effects": [
+          {
+            "time": "00:01:23.975",
+            "type": "Gentle impact",
+            "intensity": "Subtle"
+          }
+        ],
+        "silence_moments": []
+      },
+      "visual_language": {
+        "b_roll": [],
+        "overlays": [],
+        "graphics": [],
+        "emojis": [],
+        "icons": [],
+        "lower_thirds": [
+          {
+            "time": "00:01:17.774",
+            "text": "Entrepreneur's Story",
+            "position": "Top-left"
+          }
+        ]
+      },
+      "retention": {
+        "drop_off_moments": [
+          {
+            "time": "00:01:30.000",
+            "reason": "Long story, may lose attention",
+            "fix": "Increase subtitle scale by 15% and add visual emphasis"
+          }
+        ]
+      },
+      "emotional_curve": {
+        "beginning": "Engagement",
+        "middle": "Inspiration",
+        "ending": "Empowerment"
+      },
+      "hook": {
+        "strengthen": true,
+        "method": "Punch-in on 'entrepreneur yesterday'"
+      },
+      "ending": "Hard Cut"
+    },
+    {
+      "clip_id": 14,
+      "style": {
+        "editing_style": "Reflective",
+        "pacing": "Slow",
+        "energy": "Contemplative"
+      },
+      "captions": {
+        "style": "Clean",
+        "font": "Arial",
+        "animation": "Fade in, subtle",
+        "emphasis_color": "#90EE90",
+        "highlight_words": ["learned", "mistakes", "successes"],
+        "positioning": "Bottom-center"
+      },
+      "camera": {
+        "zoom_events": [
+          {
+            "time": "00:01:40.500",
+            "action": "Slow zoom-in 5%",
+            "duration": 2.0
+          }
+        ],
+        "punch_ins": [],
+        "punch_outs": [],
+        "digital_pans": [],
+        "reframing": "Stable"
+      },
+      "sound_design": {
+        "background_music": "Soft, reflective",
+        "music_intensity": "Low",
+        "fade_points": [],
+        "sound_effects": [],
+        "silence_moments": []
+      },
+      "visual_language": {
+        "b_roll": [],
+        "overlays": [],
+        "graphics": [],
+        "emojis": [],
+        "icons": [],
+        "lower_thirds": []
+      },
+      "retention": {
+        "drop_off_moments": [],
+        "fix": ""
+      },
+      "emotional_curve": {
+        "beginning": "Reflection",
+        "middle": "Wisdom",
+        "ending": "Calm"
+      },
+      "hook": {
+        "strengthen": true,
+        "method": "Bold caption on 'learned much more'"
+      },
+      "ending": "Fade"
+    },
+    {
+      "clip_id": 13,
+      "style": {
+        "editing_style": "Reflective",
+        "pacing": "Slow",
+        "energy": "Humble"
+      },
+      "captions": {
+        "style": "Clean",
+        "font": "Arial",
+        "animation": "Fade in",
+        "emphasis_color": "#FFA500",
+        "highlight_words": ["success", "not", "granted"],
+        "positioning": "Bottom-center"
+      },
+      "camera": {
+        "zoom_events": [
+          {
+            "time": "00:01:47.000",
+            "action": "Slow zoom-in 8%",
+            "duration": 1.5
+          }
+        ],
+        "punch_ins": [],
+        "punch_outs": [],
+        "digital_pans": [],
+        "reframing": "Stable"
+      },
+      "sound_design": {
+        "background_music": "Soft, contemplative",
+        "music_intensity": "Low",
+        "fade_points": [],
+        "sound_effects": [],
+        "silence_moments": []
+      },
+      "visual_language": {
+        "b_roll": [],
+        "overlays": [],
+        "graphics": [],
+        "emojis": [],
+        "icons": [],
+        "lower_thirds": []
+      },
+      "retention": {
+        "drop_off_moments": [],
+        "fix": ""
+      },
+      "emotional_curve": {
+        "beginning": "Reflection",
+        "middle": "Humility",
+        "ending": "Calm"
+      },
+      "hook": {
+        "strengthen": true,
+        "method": "Bold caption on 'success, it is not to be taken for granted'"
+      },
+      "ending": "Fade"
+    },
+    {
+      "clip_id": 12,
+      "style": {
+        "editing_style": "Educational",
+        "pacing": "Moderate",
+        "energy": "Practical"
+      },
+      "captions": {
+        "style": "Standard",
+        "font": "Arial Bold",
+        "animation": "Fade in",
+        "emphasis_color": "#00BFFF",
+        "highlight_words": ["markets", "investors", "perceive", "business"],
+        "positioning": "Bottom-center"
+      },
+      "camera": {
+        "zoom_events": [
+          {
+            "time": "00:02:45.000",
+            "action": "Slow zoom-in 10%",
+            "duration": 2.0
+          }
+        ],
+        "punch_ins": [],
+        "punch_outs": [],
+        "digital_pans": [],
+        "reframing": "Center"
+      },
+      "sound_design": {
+        "background_music": "Ambient, professional",
+        "music_intensity": "Medium",
+        "fade_points": [],
+        "sound_effects": [],
+        "silence_moments": []
+      },
+      "visual_language": {
+        "b_roll": [],
+        "overlays": [],
+        "graphics": [],
+        "emojis": [],
+        "icons": [],
+        "lower_thirds": [
+          {
+            "time": "00:02:44.033",
+            "text": "Business Advice",
+            "position": "Top-left"
+          }
+        ]
+      },
+      "retention": {
+        "drop_off_moments": [
+          {
+            "time": "00:02:55.000",
+            "reason": "Complex topic, may lose attention",
+            "fix": "Use bold captions and visual emphasis on key terms"
+          }
+        ]
+      },
+      "emotional_curve": {
+        "beginning": "Curiosity",
+        "middle": "Learning",
+        "ending": "Determination"
+      },
+      "hook": {
+        "strengthen": true,
+        "method": "Bold caption on 'deal with markets and investors'"
+      },
+      "ending": "Question"
+    },
+    {
+      "clip_id": 4,
+      "style": {
+        "editing_style": "Storytelling",
+        "pacing": "Slow",
+        "energy": "Emotional"
+      },
+      "captions": {
+        "style": "Clean",
+        "font": "Arial",
+        "animation": "Fade in",
+        "emphasis_color": "#FF69B4",
+        "highlight_words": ["rejected", "grateful", "failures"],
+        "positioning": "Bottom-center"
+      },
+      "camera": {
+        "zoom_events": [
+          {
+            "time": "00:02:02.000",
+            "action": "Slow zoom-in 12%",
+            "duration": 2.0
+          }
+        ],
+        "punch_ins": [],
+        "punch_outs": [],
+        "digital_pans": [],
+        "reframing": "Center"
+      },
+      "sound_design": {
+        "background_music": "Emotional, uplifting",
+        "music_intensity": "Medium",
+        "fade_points": [],
+        "sound_effects": [],
+        "silence_moments": []
+      },
+      "visual_language": {
+        "b_roll": [],
+        "overlays": [],
+        "graphics": [],
+        "emojis": [],
+        "icons": [],
+        "lower_thirds": [
+          {
+            "time": "00:02:00.387",
+            "text": "Turning Point",
+            "position": "Top-left"
+          }
+        ]
+      },
+      "retention": {
+        "drop_off_moments": [],
+        "fix": ""
+      },
+      "emotional_curve": {
+        "beginning": "Pain",
+        "middle": "Gratitude",
+        "ending": "Hope"
+      },
+      "hook": {
+        "strengthen": true,
+        "method": "Bold caption on 'stop feeling rejected'"
+      },
+      "ending": "Fade"
+    }
+  ]
+}

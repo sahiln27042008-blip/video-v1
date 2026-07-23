@@ -1,0 +1,28 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,44,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:46.82,0:01:46.92,Default,,0,0,0,,{\c&HFFFFFF&}In
+Dialogue: 0,0:01:46.96,0:01:47.24,Default,,0,0,0,,{\c&HFFFFFF&}fact,
+Dialogue: 0,0:01:47.36,0:01:47.58,Default,,0,0,0,,{\c&HFFFFFF&}even
+Dialogue: 0,0:01:47.60,0:01:47.72,Default,,0,0,0,,{\c&HFFFFFF&}when
+Dialogue: 0,0:01:47.76,0:01:47.88,Default,,0,0,0,,{\c&HFFFFFF&}you
+Dialogue: 0,0:01:47.92,0:01:48.08,Default,,0,0,0,,{\c&HFFFFFF&}have
+Dialogue: 0,0:01:48.12,0:01:48.16,Default,,0,0,0,,{\c&HFFFFFF&}a
+Dialogue: 0,0:01:48.24,0:01:48.78,Default,,0,0,0,,{\c&HFFFFFF&}success,
+Dialogue: 0,0:01:48.92,0:01:49.00,Default,,0,0,0,,{\c&HFFFFFF&}it
+Dialogue: 0,0:01:49.10,0:01:49.18,Default,,0,0,0,,{\c&HFFFFFF&}is
+Dialogue: 0,0:01:49.24,0:01:49.46,Default,,0,0,0,,{\c&HFFFFFF&}not
+Dialogue: 0,0:01:49.52,0:01:49.60,Default,,0,0,0,,{\c&HFFFFFF&}to
+Dialogue: 0,0:01:49.64,0:01:49.74,Default,,0,0,0,,{\c&HFFFFFF&}be
+Dialogue: 0,0:01:49.78,0:01:50.10,Default,,0,0,0,,{\c&HFFFFFF&}taken
+Dialogue: 0,0:01:50.16,0:01:50.28,Default,,0,0,0,,{\c&HFFFFFF&}for
+Dialogue: 0,0:01:50.34,0:01:50.82,Default,,0,0,0,,{\c&HFFFFFF&}granted.

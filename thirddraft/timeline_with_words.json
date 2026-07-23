@@ -1,0 +1,2900 @@
+{
+  "module": "timeline_fusion",
+  "version": "0.1.0",
+  "video": "/content/video-v1/video.mp4",
+  "segments": [
+    {
+      "start": "00:00:01.725",
+      "end": "00:00:08.426",
+      "scene_id": 2,
+      "camera": null,
+      "visible_people": [
+        "person_1"
+      ],
+      "active_speaker": "person_1",
+      "person": "person_1",
+      "speaker_label": "SPEAKER_01",
+      "text": "What would you tell somebody who has some skill in them, but they're not confident, how can they build this attitude?",
+      "words": [
+        {
+          "word": "What",
+          "start": 1.725,
+          "end": 1.905
+        },
+        {
+          "word": "would",
+          "start": 1.925,
+          "end": 2.065
+        },
+        {
+          "word": "you",
+          "start": 2.105,
+          "end": 2.205
+        },
+        {
+          "word": "tell",
+          "start": 2.245,
+          "end": 2.445
+        },
+        {
+          "word": "somebody",
+          "start": 2.565,
+          "end": 3.085
+        },
+        {
+          "word": "who",
+          "start": 3.165,
+          "end": 3.365
+        },
+        {
+          "word": "has",
+          "start": 3.986,
+          "end": 4.246
+        },
+        {
+          "word": "some",
+          "start": 4.306,
+          "end": 4.486
+        },
+        {
+          "word": "skill",
+          "start": 4.546,
+          "end": 4.826
+        },
+        {
+          "word": "in",
+          "start": 4.866,
+          "end": 4.946
+        },
+        {
+          "word": "them,",
+          "start": 4.986,
+          "end": 5.186
+        },
+        {
+          "word": "but",
+          "start": 5.526,
+          "end": 5.646
+        },
+        {
+          "word": "they're",
+          "start": 5.666,
+          "end": 5.866
+        },
+        {
+          "word": "not",
+          "start": 5.886,
+          "end": 6.026
+        },
+        {
+          "word": "confident,",
+          "start": 6.126,
+          "end": 6.726
+        },
+        {
+          "word": "how",
+          "start": 6.766,
+          "end": 6.886
+        },
+        {
+          "word": "can",
+          "start": 6.946,
+          "end": 7.127
+        },
+        {
+          "word": "they",
+          "start": 7.187,
+          "end": 7.347
+        },
+        {
+          "word": "build",
+          "start": 7.427,
+          "end": 7.607
+        },
+        {
+          "word": "this",
+          "start": 7.647,
+          "end": 7.807
+        },
+        {
+          "word": "attitude?",
+          "start": 7.927,
+          "end": 8.427
+        }
+      ]
+    },
+    {
+      "start": "00:00:09.186",
+      "end": "00:00:14.728",
+      "scene_id": 3,
+      "camera": null,
+      "visible_people": [
+        "person_2",
+        "person_3",
+        "person_2"
+      ],
+      "active_speaker": null,
+      "person": "person_2",
+      "speaker_label": "SPEAKER_00",
+      "text": "See, I feel that confidence comes from being very clear in your mind, right?",
+      "words": [
+        {
+          "word": "See,",
+          "start": 9.187,
+          "end": 9.367
+        },
+        {
+          "word": "I",
+          "start": 9.427,
+          "end": 9.527
+        },
+        {
+          "word": "feel",
+          "start": 9.627,
+          "end": 9.927
+        },
+        {
+          "word": "that",
+          "start": 10.007,
+          "end": 10.187
+        },
+        {
+          "word": "confidence",
+          "start": 10.307,
+          "end": 11.028
+        },
+        {
+          "word": "comes",
+          "start": 11.128,
+          "end": 11.428
+        },
+        {
+          "word": "from",
+          "start": 11.528,
+          "end": 11.708
+        },
+        {
+          "word": "being",
+          "start": 11.768,
+          "end": 12.008
+        },
+        {
+          "word": "very",
+          "start": 12.048,
+          "end": 12.288
+        },
+        {
+          "word": "clear",
+          "start": 12.428,
+          "end": 12.828
+        },
+        {
+          "word": "in",
+          "start": 13.028,
+          "end": 13.108
+        },
+        {
+          "word": "your",
+          "start": 13.148,
+          "end": 13.288
+        },
+        {
+          "word": "mind,",
+          "start": 13.348,
+          "end": 13.608
+        },
+        {
+          "word": "right?",
+          "start": 14.469,
+          "end": 14.729
+        }
+      ]
+    },
+    {
+      "start": "00:00:15.368",
+      "end": "00:00:25.891",
+      "scene_id": 3,
+      "camera": null,
+      "visible_people": [
+        "person_2",
+        "person_3",
+        "person_2"
+      ],
+      "active_speaker": null,
+      "person": "person_2",
+      "speaker_label": "SPEAKER_00",
+      "text": "If you have clarity of thought and vision and you're only focusing on executing that vision or that purpose,",
+      "words": [
+        {
+          "word": "If",
+          "start": 15.369,
+          "end": 15.449
+        },
+        {
+          "word": "you",
+          "start": 15.469,
+          "end": 15.689
+        },
+        {
+          "word": "have",
+          "start": 15.749,
+          "end": 15.989
+        },
+        {
+          "word": "clarity",
+          "start": 16.089,
+          "end": 16.809
+        },
+        {
+          "word": "of",
+          "start": 16.949,
+          "end": 17.029
+        },
+        {
+          "word": "thought",
+          "start": 17.189,
+          "end": 17.59
+        },
+        {
+          "word": "and",
+          "start": 17.69,
+          "end": 17.79
+        },
+        {
+          "word": "vision",
+          "start": 17.85,
+          "end": 18.21
+        },
+        {
+          "word": "and",
+          "start": 19.29,
+          "end": 19.45
+        },
+        {
+          "word": "you're",
+          "start": 19.87,
+          "end": 20.11
+        },
+        {
+          "word": "only",
+          "start": 20.15,
+          "end": 20.39
+        },
+        {
+          "word": "focusing",
+          "start": 20.49,
+          "end": 20.99
+        },
+        {
+          "word": "on",
+          "start": 21.071,
+          "end": 21.151
+        },
+        {
+          "word": "executing",
+          "start": 21.291,
+          "end": 22.011
+        },
+        {
+          "word": "that",
+          "start": 22.271,
+          "end": 22.471
+        },
+        {
+          "word": "vision",
+          "start": 22.631,
+          "end": 22.971
+        },
+        {
+          "word": "or",
+          "start": 23.071,
+          "end": 23.371
+        },
+        {
+          "word": "that",
+          "start": 25.172,
+          "end": 25.372
+        },
+        {
+          "word": "purpose,",
+          "start": 25.412,
+          "end": 25.892
+        }
+      ]
+    },
+    {
+      "start": "00:00:27.237",
+      "end": "00:00:29.600",
+      "scene_id": 4,
+      "camera": null,
+      "visible_people": [
+        "person_2",
+        "person_1"
+      ],
+      "active_speaker": null,
+      "person": "person_2",
+      "speaker_label": "SPEAKER_00",
+      "text": "Then I think you don't have self doubt.",
+      "words": [
+        {
+          "word": "Then",
+          "start": 27.238,
+          "end": 27.478
+        },
+        {
+          "word": "I",
+          "start": 27.598,
+          "end": 27.698
+        },
+        {
+          "word": "think",
+          "start": 27.758,
+          "end": 28.019
+        },
+        {
+          "word": "you",
+          "start": 28.059,
+          "end": 28.239
+        },
+        {
+          "word": "don't",
+          "start": 28.479,
+          "end": 28.719
+        },
+        {
+          "word": "have",
+          "start": 28.779,
+          "end": 28.919
+        },
+        {
+          "word": "self",
+          "start": 28.979,
+          "end": 29.239
+        },
+        {
+          "word": "doubt.",
+          "start": 29.319,
+          "end": 29.6
+        }
+      ]
+    },
+    {
+      "start": "00:00:29.679",
+      "end": "00:00:30.920",
+      "scene_id": 4,
+      "camera": null,
+      "visible_people": [
+        "person_2",
+        "person_1"
+      ],
+      "active_speaker": null,
+      "person": "person_2",
+      "speaker_label": "SPEAKER_00",
+      "text": "You'll be very confident.",
+      "words": [
+        {
+          "word": "You'll",
+          "start": 29.68,
+          "end": 29.92
+        },
+        {
+          "word": "be",
+          "start": 29.94,
+          "end": 30.02
+        },
+        {
+          "word": "very",
+          "start": 30.06,
+          "end": 30.26
+        },
+        {
+          "word": "confident.",
+          "start": 30.34,
+          "end": 30.92
+        }
+      ]
+    },
+    {
+      "start": "00:00:31.800",
+      "end": "00:00:44.810",
+      "scene_id": 4,
+      "camera": null,
+      "visible_people": [
+        "person_2",
+        "person_1"
+      ],
+      "active_speaker": null,
+      "person": "person_2",
+      "speaker_label": "SPEAKER_00",
+      "text": "But if you're not very clear, and if you're approximating all the time and hoping that things will go right, then I know that when it goes wrong, you'll have a real problem.",
+      "words": [
+        {
+          "word": "But",
+          "start": 31.801,
+          "end": 31.981
+        },
+        {
+          "word": "if",
+          "start": 32.201,
+          "end": 32.281
+        },
+        {
+          "word": "you're",
+          "start": 32.321,
+          "end": 32.562
+        },
+        {
+          "word": "not",
+          "start": 32.682,
+          "end": 32.962
+        },
+        {
+          "word": "very",
+          "start": 33.042,
+          "end": 33.282
+        },
+        {
+          "word": "clear,",
+          "start": 33.382,
+          "end": 33.742
+        },
+        {
+          "word": "and",
+          "start": 33.762,
+          "end": 34.683
+        },
+        {
+          "word": "if",
+          "start": 34.743,
+          "end": 34.823
+        },
+        {
+          "word": "you're",
+          "start": 34.863,
+          "end": 35.283
+        },
+        {
+          "word": "approximating",
+          "start": 36.924,
+          "end": 37.865
+        },
+        {
+          "word": "all",
+          "start": 37.965,
+          "end": 38.125
+        },
+        {
+          "word": "the",
+          "start": 38.185,
+          "end": 38.285
+        },
+        {
+          "word": "time",
+          "start": 38.325,
+          "end": 38.586
+        },
+        {
+          "word": "and",
+          "start": 39.646,
+          "end": 39.786
+        },
+        {
+          "word": "hoping",
+          "start": 39.966,
+          "end": 40.487
+        },
+        {
+          "word": "that",
+          "start": 40.527,
+          "end": 40.687
+        },
+        {
+          "word": "things",
+          "start": 40.747,
+          "end": 40.967
+        },
+        {
+          "word": "will",
+          "start": 41.007,
+          "end": 41.187
+        },
+        {
+          "word": "go",
+          "start": 41.227,
+          "end": 41.367
+        },
+        {
+          "word": "right,",
+          "start": 41.427,
+          "end": 41.708
+        },
+        {
+          "word": "then",
+          "start": 42.148,
+          "end": 42.288
+        },
+        {
+          "word": "I",
+          "start": 42.328,
+          "end": 42.388
+        },
+        {
+          "word": "know",
+          "start": 42.428,
+          "end": 42.608
+        },
+        {
+          "word": "that",
+          "start": 42.648,
+          "end": 42.788
+        },
+        {
+          "word": "when",
+          "start": 42.808,
+          "end": 42.948
+        },
+        {
+          "word": "it",
+          "start": 43.008,
+          "end": 43.088
+        },
+        {
+          "word": "goes",
+          "start": 43.148,
+          "end": 43.409
+        },
+        {
+          "word": "wrong,",
+          "start": 43.469,
+          "end": 43.709
+        },
+        {
+          "word": "you'll",
+          "start": 43.729,
+          "end": 43.929
+        },
+        {
+          "word": "have",
+          "start": 43.949,
+          "end": 44.069
+        },
+        {
+          "word": "a",
+          "start": 44.089,
+          "end": 44.129
+        },
+        {
+          "word": "real",
+          "start": 44.169,
+          "end": 44.389
+        },
+        {
+          "word": "problem.",
+          "start": 44.429,
+          "end": 44.81
+        }
+      ]
+    },
+    {
+      "start": "00:00:45.670",
+      "end": "00:00:47.511",
+      "scene_id": 5,
+      "camera": null,
+      "visible_people": [
+        "person_2",
+        "person_2"
+      ],
+      "active_speaker": null,
+      "person": "person_2",
+      "speaker_label": "SPEAKER_00",
+      "text": "And that's when people start panicking.",
+      "words": [
+        {
+          "word": "And",
+          "start": 45.67,
+          "end": 45.77
+        },
+        {
+          "word": "that's",
+          "start": 45.81,
+          "end": 46.01
+        },
+        {
+          "word": "when",
+          "start": 46.05,
+          "end": 46.231
+        },
+        {
+          "word": "people",
+          "start": 46.271,
+          "end": 46.611
+        },
+        {
+          "word": "start",
+          "start": 46.651,
+          "end": 46.911
+        },
+        {
+          "word": "panicking.",
+          "start": 46.951,
+          "end": 47.511
+        }
+      ]
+    },
+    {
+      "start": "00:00:47.871",
+      "end": "00:00:55.856",
+      "scene_id": 5,
+      "camera": null,
+      "visible_people": [
+        "person_2",
+        "person_2"
+      ],
+      "active_speaker": null,
+      "person": "person_2",
+      "speaker_label": "SPEAKER_00",
+      "text": "I've seen a lot of young entrepreneurs who come with a good vision, come with a good, you know, sort of objective and goals.",
+      "words": [
+        {
+          "word": "I've",
+          "start": 47.872,
+          "end": 48.012
+        },
+        {
+          "word": "seen",
+          "start": 48.032,
+          "end": 48.232
+        },
+        {
+          "word": "a",
+          "start": 48.252,
+          "end": 48.272
+        },
+        {
+          "word": "lot",
+          "start": 48.312,
+          "end": 48.632
+        },
+        {
+          "word": "of",
+          "start": 48.712,
+          "end": 48.792
+        },
+        {
+          "word": "young",
+          "start": 48.872,
+          "end": 49.112
+        },
+        {
+          "word": "entrepreneurs",
+          "start": 49.212,
+          "end": 49.993
+        },
+        {
+          "word": "who",
+          "start": 50.573,
+          "end": 50.773
+        },
+        {
+          "word": "come",
+          "start": 50.934,
+          "end": 51.154
+        },
+        {
+          "word": "with",
+          "start": 51.194,
+          "end": 51.374
+        },
+        {
+          "word": "a",
+          "start": 51.414,
+          "end": 51.454
+        },
+        {
+          "word": "good",
+          "start": 51.494,
+          "end": 51.674
+        },
+        {
+          "word": "vision,",
+          "start": 51.734,
+          "end": 52.174
+        },
+        {
+          "word": "come",
+          "start": 52.515,
+          "end": 52.695
+        },
+        {
+          "word": "with",
+          "start": 52.735,
+          "end": 52.895
+        },
+        {
+          "word": "a",
+          "start": 52.955,
+          "end": 52.995
+        },
+        {
+          "word": "good,",
+          "start": 53.035,
+          "end": 53.615
+        },
+        {
+          "word": "you",
+          "start": 53.815,
+          "end": 53.916
+        },
+        {
+          "word": "know,",
+          "start": 53.936,
+          "end": 54.076
+        },
+        {
+          "word": "sort",
+          "start": 54.116,
+          "end": 54.276
+        },
+        {
+          "word": "of",
+          "start": 54.316,
+          "end": 54.396
+        },
+        {
+          "word": "objective",
+          "start": 54.536,
+          "end": 55.116
+        },
+        {
+          "word": "and",
+          "start": 55.316,
+          "end": 55.417
+        },
+        {
+          "word": "goals.",
+          "start": 55.497,
+          "end": 55.857
+        }
+      ]
+    },
+    {
+      "start": "00:00:57.189",
+      "end": "00:01:00.274",
+      "scene_id": 5,
+      "camera": null,
+      "visible_people": [
+        "person_2",
+        "person_2"
+      ],
+      "active_speaker": null,
+      "person": "person_2",
+      "speaker_label": "SPEAKER_00",
+      "text": "But suddenly start panicking when the first thing goes wrong.",
+      "words": [
+        {
+          "word": "But",
+          "start": 57.19,
+          "end": 57.33
+        },
+        {
+          "word": "suddenly",
+          "start": 57.39,
+          "end": 57.811
+        },
+        {
+          "word": "start",
+          "start": 57.871,
+          "end": 58.151
+        },
+        {
+          "word": "panicking",
+          "start": 58.231,
+          "end": 58.732
+        },
+        {
+          "word": "when",
+          "start": 58.772,
+          "end": 58.912
+        },
+        {
+          "word": "the",
+          "start": 58.972,
+          "end": 59.052
+        },
+        {
+          "word": "first",
+          "start": 59.153,
+          "end": 59.453
+        },
+        {
+          "word": "thing",
+          "start": 59.493,
+          "end": 59.693
+        },
+        {
+          "word": "goes",
+          "start": 59.753,
+          "end": 59.974
+        },
+        {
+          "word": "wrong.",
+          "start": 60.034,
+          "end": 60.274
+        }
+      ]
+    },
+    {
+      "start": "00:01:00.895",
+      "end": "00:01:08.905",
+      "scene_id": 7,
+      "camera": null,
+      "visible_people": [
+        "person_2",
+        "person_3"
+      ],
+      "active_speaker": null,
+      "person": "person_2",
+      "speaker_label": "SPEAKER_00",
+      "text": "And I'm telling these people listen, are you sure that this is what your business has to be?",
+      "words": [
+        {
+          "word": "And",
+          "start": 60.895,
+          "end": 60.995
+        },
+        {
+          "word": "I'm",
+          "start": 61.015,
+          "end": 61.135
+        },
+        {
+          "word": "telling",
+          "start": 61.175,
+          "end": 61.476
+        },
+        {
+          "word": "these",
+          "start": 61.516,
+          "end": 61.676
+        },
+        {
+          "word": "people",
+          "start": 61.716,
+          "end": 62.016
+        },
+        {
+          "word": "listen,",
+          "start": 62.076,
+          "end": 62.517
+        },
+        {
+          "word": "are",
+          "start": 64.239,
+          "end": 64.339
+        },
+        {
+          "word": "you",
+          "start": 64.399,
+          "end": 64.56
+        },
+        {
+          "word": "sure",
+          "start": 64.8,
+          "end": 65.18
+        },
+        {
+          "word": "that",
+          "start": 65.861,
+          "end": 66.082
+        },
+        {
+          "word": "this",
+          "start": 66.482,
+          "end": 66.642
+        },
+        {
+          "word": "is",
+          "start": 66.722,
+          "end": 66.823
+        },
+        {
+          "word": "what",
+          "start": 67.443,
+          "end": 67.624
+        },
+        {
+          "word": "your",
+          "start": 67.684,
+          "end": 67.844
+        },
+        {
+          "word": "business",
+          "start": 67.884,
+          "end": 68.284
+        },
+        {
+          "word": "has",
+          "start": 68.345,
+          "end": 68.545
+        },
+        {
+          "word": "to",
+          "start": 68.605,
+          "end": 68.705
+        },
+        {
+          "word": "be?",
+          "start": 68.765,
+          "end": 68.905
+        }
+      ]
+    },
+    {
+      "start": "00:01:09.486",
+      "end": "00:01:09.725",
+      "scene_id": 7,
+      "camera": null,
+      "visible_people": [
+        "person_2",
+        "person_3"
+      ],
+      "active_speaker": null,
+      "person": "person_2",
+      "speaker_label": "SPEAKER_00",
+      "text": "Yes.",
+      "words": [
+        {
+          "word": "Yes.",
+          "start": 69.486,
+          "end": 69.726
+        }
+      ]
+    },
+    {
+      "start": "00:01:10.768",
+      "end": "00:01:11.968",
+      "scene_id": 7,
+      "camera": null,
+      "visible_people": [
+        "person_2",
+        "person_3"
+      ],
+      "active_speaker": null,
+      "person": "person_2",
+      "speaker_label": "SPEAKER_00",
+      "text": "Is this what you want to do?",
+      "words": [
+        {
+          "word": "Is",
+          "start": 70.768,
+          "end": 70.868
+        },
+        {
+          "word": "this",
+          "start": 70.908,
+          "end": 71.088
+        },
+        {
+          "word": "what",
+          "start": 71.148,
+          "end": 71.308
+        },
+        {
+          "word": "you",
+          "start": 71.348,
+          "end": 71.449
+        },
+        {
+          "word": "want",
+          "start": 71.489,
+          "end": 71.669
+        },
+        {
+          "word": "to",
+          "start": 71.709,
+          "end": 71.769
+        },
+        {
+          "word": "do?",
+          "start": 71.809,
+          "end": 71.969
+        }
+      ]
+    },
+    {
+      "start": "00:01:12.149",
+      "end": "00:01:12.370",
+      "scene_id": 7,
+      "camera": null,
+      "visible_people": [
+        "person_2",
+        "person_3"
+      ],
+      "active_speaker": null,
+      "person": "person_2",
+      "speaker_label": "SPEAKER_00",
+      "text": "Yes.",
+      "words": [
+        {
+          "word": "Yes.",
+          "start": 72.149,
+          "end": 72.37
+        }
+      ]
+    },
+    {
+      "start": "00:01:12.650",
+      "end": "00:01:13.932",
+      "scene_id": 7,
+      "camera": null,
+      "visible_people": [
+        "person_2",
+        "person_3"
+      ],
+      "active_speaker": null,
+      "person": "person_2",
+      "speaker_label": "SPEAKER_00",
+      "text": "Then why are you panicking?",
+      "words": [
+        {
+          "word": "Then",
+          "start": 72.65,
+          "end": 72.83
+        },
+        {
+          "word": "why",
+          "start": 72.93,
+          "end": 73.111
+        },
+        {
+          "word": "are",
+          "start": 73.151,
+          "end": 73.231
+        },
+        {
+          "word": "you",
+          "start": 73.271,
+          "end": 73.371
+        },
+        {
+          "word": "panicking?",
+          "start": 73.431,
+          "end": 73.932
+        }
+      ]
+    },
+    {
+      "start": "00:01:15.713",
+      "end": "00:01:17.414",
+      "scene_id": 9,
+      "camera": null,
+      "visible_people": [
+        "person_2"
+      ],
+      "active_speaker": "person_2",
+      "person": "person_2",
+      "speaker_label": "SPEAKER_00",
+      "text": "You have to double down you.",
+      "words": [
+        {
+          "word": "You",
+          "start": 75.714,
+          "end": 75.874
+        },
+        {
+          "word": "have",
+          "start": 75.994,
+          "end": 76.254
+        },
+        {
+          "word": "to",
+          "start": 76.294,
+          "end": 76.434
+        },
+        {
+          "word": "double",
+          "start": 76.514,
+          "end": 76.834
+        },
+        {
+          "word": "down",
+          "start": 76.874,
+          "end": 77.134
+        },
+        {
+          "word": "you.",
+          "start": 77.234,
+          "end": 77.414
+        }
+      ]
+    },
+    {
+      "start": "00:01:17.774",
+      "end": "00:01:23.115",
+      "scene_id": 9,
+      "camera": null,
+      "visible_people": [
+        "person_2"
+      ],
+      "active_speaker": "person_2",
+      "person": "person_2",
+      "speaker_label": "SPEAKER_00",
+      "text": "And by the way, I told some another entrepreneur yesterday, they said, you know, talked about failure.",
+      "words": [
+        {
+          "word": "And",
+          "start": 77.774,
+          "end": 77.874
+        },
+        {
+          "word": "by",
+          "start": 77.954,
+          "end": 78.135
+        },
+        {
+          "word": "the",
+          "start": 78.155,
+          "end": 78.255
+        },
+        {
+          "word": "way,",
+          "start": 78.315,
+          "end": 78.395
+        },
+        {
+          "word": "I",
+          "start": 78.435,
+          "end": 78.535
+        },
+        {
+          "word": "told",
+          "start": 78.575,
+          "end": 78.815
+        },
+        {
+          "word": "some",
+          "start": 78.875,
+          "end": 79.055
+        },
+        {
+          "word": "another",
+          "start": 79.195,
+          "end": 79.535
+        },
+        {
+          "word": "entrepreneur",
+          "start": 79.615,
+          "end": 80.315
+        },
+        {
+          "word": "yesterday,",
+          "start": 80.495,
+          "end": 81.055
+        },
+        {
+          "word": "they",
+          "start": 81.155,
+          "end": 81.275
+        },
+        {
+          "word": "said,",
+          "start": 81.315,
+          "end": 81.515
+        },
+        {
+          "word": "you",
+          "start": 81.615,
+          "end": 81.735
+        },
+        {
+          "word": "know,",
+          "start": 81.755,
+          "end": 81.975
+        },
+        {
+          "word": "talked",
+          "start": 82.075,
+          "end": 82.355
+        },
+        {
+          "word": "about",
+          "start": 82.375,
+          "end": 82.595
+        },
+        {
+          "word": "failure.",
+          "start": 82.695,
+          "end": 83.116
+        }
+      ]
+    },
+    {
+      "start": "00:01:23.975",
+      "end": "00:01:28.216",
+      "scene_id": 11,
+      "camera": null,
+      "visible_people": [
+        "person_2"
+      ],
+      "active_speaker": "person_2",
+      "person": "person_2",
+      "speaker_label": "SPEAKER_00",
+      "text": "I said, listen, if you can't face failure, then you're not an entrepreneur.",
+      "words": [
+        {
+          "word": "I",
+          "start": 83.976,
+          "end": 84.036
+        },
+        {
+          "word": "said,",
+          "start": 84.076,
+          "end": 84.236
+        },
+        {
+          "word": "listen,",
+          "start": 84.276,
+          "end": 84.656
+        },
+        {
+          "word": "if",
+          "start": 84.816,
+          "end": 84.916
+        },
+        {
+          "word": "you",
+          "start": 84.956,
+          "end": 85.156
+        },
+        {
+          "word": "can't",
+          "start": 85.496,
+          "end": 85.876
+        },
+        {
+          "word": "face",
+          "start": 85.996,
+          "end": 86.316
+        },
+        {
+          "word": "failure,",
+          "start": 86.416,
+          "end": 86.836
+        },
+        {
+          "word": "then",
+          "start": 86.876,
+          "end": 86.996
+        },
+        {
+          "word": "you're",
+          "start": 87.016,
+          "end": 87.196
+        },
+        {
+          "word": "not",
+          "start": 87.236,
+          "end": 87.396
+        },
+        {
+          "word": "an",
+          "start": 87.456,
+          "end": 87.537
+        },
+        {
+          "word": "entrepreneur.",
+          "start": 87.617,
+          "end": 88.217
+        }
+      ]
+    },
+    {
+      "start": "00:01:29.117",
+      "end": "00:01:32.358",
+      "scene_id": 13,
+      "camera": null,
+      "visible_people": [
+        "person_2",
+        "person_3"
+      ],
+      "active_speaker": null,
+      "person": "person_2",
+      "speaker_label": "SPEAKER_00",
+      "text": "I said every entrepreneurial journey will have mistakes.",
+      "words": [
+        {
+          "word": "I",
+          "start": 89.117,
+          "end": 89.197
+        },
+        {
+          "word": "said",
+          "start": 89.237,
+          "end": 89.417
+        },
+        {
+          "word": "every",
+          "start": 89.637,
+          "end": 90.037
+        },
+        {
+          "word": "entrepreneurial",
+          "start": 90.157,
+          "end": 90.977
+        },
+        {
+          "word": "journey",
+          "start": 91.037,
+          "end": 91.397
+        },
+        {
+          "word": "will",
+          "start": 91.437,
+          "end": 91.617
+        },
+        {
+          "word": "have",
+          "start": 91.657,
+          "end": 91.777
+        },
+        {
+          "word": "mistakes.",
+          "start": 91.837,
+          "end": 92.358
+        }
+      ]
+    },
+    {
+      "start": "00:01:33.197",
+      "end": "00:01:37.978",
+      "scene_id": 13,
+      "camera": null,
+      "visible_people": [
+        "person_2",
+        "person_3"
+      ],
+      "active_speaker": null,
+      "person": "person_2",
+      "speaker_label": "SPEAKER_00",
+      "text": "Don't think that because you see me today, you think everything has been a smooth sale.",
+      "words": [
+        {
+          "word": "Don't",
+          "start": 93.198,
+          "end": 93.498
+        },
+        {
+          "word": "think",
+          "start": 93.558,
+          "end": 93.738
+        },
+        {
+          "word": "that",
+          "start": 93.778,
+          "end": 93.918
+        },
+        {
+          "word": "because",
+          "start": 93.998,
+          "end": 94.298
+        },
+        {
+          "word": "you",
+          "start": 94.318,
+          "end": 94.458
+        },
+        {
+          "word": "see",
+          "start": 94.498,
+          "end": 94.658
+        },
+        {
+          "word": "me",
+          "start": 94.698,
+          "end": 94.818
+        },
+        {
+          "word": "today,",
+          "start": 94.898,
+          "end": 95.278
+        },
+        {
+          "word": "you",
+          "start": 95.738,
+          "end": 95.858
+        },
+        {
+          "word": "think",
+          "start": 95.898,
+          "end": 96.098
+        },
+        {
+          "word": "everything",
+          "start": 96.238,
+          "end": 96.758
+        },
+        {
+          "word": "has",
+          "start": 96.798,
+          "end": 96.938
+        },
+        {
+          "word": "been",
+          "start": 96.978,
+          "end": 97.139
+        },
+        {
+          "word": "a",
+          "start": 97.179,
+          "end": 97.219
+        },
+        {
+          "word": "smooth",
+          "start": 97.279,
+          "end": 97.619
+        },
+        {
+          "word": "sale.",
+          "start": 97.679,
+          "end": 97.979
+        }
+      ]
+    },
+    {
+      "start": "00:01:38.299",
+      "end": "00:01:38.539",
+      "scene_id": 14,
+      "camera": null,
+      "visible_people": [
+        "person_1"
+      ],
+      "active_speaker": "person_1",
+      "person": "person_2",
+      "speaker_label": "SPEAKER_00",
+      "text": "No.",
+      "words": [
+        {
+          "word": "No.",
+          "start": 98.299,
+          "end": 98.539
+        }
+      ]
+    },
+    {
+      "start": "00:01:40.259",
+      "end": "00:01:43.920",
+      "scene_id": 15,
+      "camera": null,
+      "visible_people": [
+        "person_2",
+        "person_3"
+      ],
+      "active_speaker": null,
+      "person": "person_2",
+      "speaker_label": "SPEAKER_00",
+      "text": "I think I've learned much more from mistakes than from successes.",
+      "words": [
+        {
+          "word": "I",
+          "start": 100.259,
+          "end": 100.379
+        },
+        {
+          "word": "think",
+          "start": 100.439,
+          "end": 100.679
+        },
+        {
+          "word": "I've",
+          "start": 100.759,
+          "end": 100.899
+        },
+        {
+          "word": "learned",
+          "start": 100.959,
+          "end": 101.239
+        },
+        {
+          "word": "much",
+          "start": 101.399,
+          "end": 101.619
+        },
+        {
+          "word": "more",
+          "start": 101.699,
+          "end": 101.86
+        },
+        {
+          "word": "from",
+          "start": 101.92,
+          "end": 102.12
+        },
+        {
+          "word": "mistakes",
+          "start": 102.2,
+          "end": 102.78
+        },
+        {
+          "word": "than",
+          "start": 102.9,
+          "end": 103.06
+        },
+        {
+          "word": "from",
+          "start": 103.12,
+          "end": 103.28
+        },
+        {
+          "word": "successes.",
+          "start": 103.36,
+          "end": 103.92
+        }
+      ]
+    },
+    {
+      "start": "00:01:45.620",
+      "end": "00:01:45.881",
+      "scene_id": 16,
+      "camera": null,
+      "visible_people": [
+        "person_1"
+      ],
+      "active_speaker": "person_1",
+      "person": "person_2",
+      "speaker_label": "SPEAKER_00",
+      "text": "Right?",
+      "words": [
+        {
+          "word": "Right?",
+          "start": 105.621,
+          "end": 105.881
+        }
+      ]
+    },
+    {
+      "start": "00:01:46.820",
+      "end": "00:01:50.822",
+      "scene_id": 17,
+      "camera": null,
+      "visible_people": [
+        "person_2",
+        "person_3"
+      ],
+      "active_speaker": null,
+      "person": "person_2",
+      "speaker_label": "SPEAKER_00",
+      "text": "In fact, even when you have a success, it is not to be taken for granted.",
+      "words": [
+        {
+          "word": "In",
+          "start": 106.821,
+          "end": 106.921
+        },
+        {
+          "word": "fact,",
+          "start": 106.962,
+          "end": 107.242
+        },
+        {
+          "word": "even",
+          "start": 107.362,
+          "end": 107.582
+        },
+        {
+          "word": "when",
+          "start": 107.602,
+          "end": 107.722
+        },
+        {
+          "word": "you",
+          "start": 107.762,
+          "end": 107.882
+        },
+        {
+          "word": "have",
+          "start": 107.922,
+          "end": 108.082
+        },
+        {
+          "word": "a",
+          "start": 108.122,
+          "end": 108.162
+        },
+        {
+          "word": "success,",
+          "start": 108.242,
+          "end": 108.782
+        },
+        {
+          "word": "it",
+          "start": 108.922,
+          "end": 109.002
+        },
+        {
+          "word": "is",
+          "start": 109.102,
+          "end": 109.182
+        },
+        {
+          "word": "not",
+          "start": 109.242,
+          "end": 109.462
+        },
+        {
+          "word": "to",
+          "start": 109.522,
+          "end": 109.602
+        },
+        {
+          "word": "be",
+          "start": 109.643,
+          "end": 109.743
+        },
+        {
+          "word": "taken",
+          "start": 109.783,
+          "end": 110.103
+        },
+        {
+          "word": "for",
+          "start": 110.163,
+          "end": 110.283
+        },
+        {
+          "word": "granted.",
+          "start": 110.343,
+          "end": 110.823
+        }
+      ]
+    },
+    {
+      "start": "00:01:52.284",
+      "end": "00:01:57.745",
+      "scene_id": 17,
+      "camera": null,
+      "visible_people": [
+        "person_2",
+        "person_3"
+      ],
+      "active_speaker": null,
+      "person": "person_2",
+      "speaker_label": "SPEAKER_00",
+      "text": "But when you had a failure, you have to learn from that failure and make sure it doesn't happen again.",
+      "words": [
+        {
+          "word": "But",
+          "start": 112.284,
+          "end": 112.424
+        },
+        {
+          "word": "when",
+          "start": 112.484,
+          "end": 112.644
+        },
+        {
+          "word": "you",
+          "start": 112.684,
+          "end": 112.864
+        },
+        {
+          "word": "had",
+          "start": 112.924,
+          "end": 113.164
+        },
+        {
+          "word": "a",
+          "start": 113.204,
+          "end": 113.244
+        },
+        {
+          "word": "failure,",
+          "start": 113.404,
+          "end": 114.004
+        },
+        {
+          "word": "you",
+          "start": 114.904,
+          "end": 114.985
+        },
+        {
+          "word": "have",
+          "start": 115.005,
+          "end": 115.125
+        },
+        {
+          "word": "to",
+          "start": 115.145,
+          "end": 115.205
+        },
+        {
+          "word": "learn",
+          "start": 115.265,
+          "end": 115.505
+        },
+        {
+          "word": "from",
+          "start": 115.565,
+          "end": 115.705
+        },
+        {
+          "word": "that",
+          "start": 115.745,
+          "end": 115.905
+        },
+        {
+          "word": "failure",
+          "start": 115.965,
+          "end": 116.305
+        },
+        {
+          "word": "and",
+          "start": 116.325,
+          "end": 116.405
+        },
+        {
+          "word": "make",
+          "start": 116.445,
+          "end": 116.605
+        },
+        {
+          "word": "sure",
+          "start": 116.645,
+          "end": 116.805
+        },
+        {
+          "word": "it",
+          "start": 116.825,
+          "end": 116.865
+        },
+        {
+          "word": "doesn't",
+          "start": 116.905,
+          "end": 117.145
+        },
+        {
+          "word": "happen",
+          "start": 117.185,
+          "end": 117.465
+        },
+        {
+          "word": "again.",
+          "start": 117.525,
+          "end": 117.746
+        }
+      ]
+    },
+    {
+      "start": "00:01:59.105",
+      "end": "00:01:59.906",
+      "scene_id": 18,
+      "camera": null,
+      "visible_people": [
+        "person_1"
+      ],
+      "active_speaker": "person_1",
+      "person": "person_1",
+      "speaker_label": "SPEAKER_01",
+      "text": "True.",
+      "words": [
+        {
+          "word": "True.",
+          "start": 119.106,
+          "end": 119.906
+        }
+      ]
+    },
+    {
+      "start": "00:02:00.387",
+      "end": "00:02:07.849",
+      "scene_id": 18,
+      "camera": null,
+      "visible_people": [
+        "person_1"
+      ],
+      "active_speaker": "person_1",
+      "person": "person_1",
+      "speaker_label": "SPEAKER_01",
+      "text": "At what point do you stop feeling rejected in the beginning of your career and started feeling grateful?",
+      "words": [
+        {
+          "word": "At",
+          "start": 120.387,
+          "end": 120.467
+        },
+        {
+          "word": "what",
+          "start": 120.527,
+          "end": 120.707
+        },
+        {
+          "word": "point",
+          "start": 120.787,
+          "end": 121.027
+        },
+        {
+          "word": "do",
+          "start": 121.047,
+          "end": 121.087
+        },
+        {
+          "word": "you",
+          "start": 121.107,
+          "end": 121.407
+        },
+        {
+          "word": "stop",
+          "start": 122.007,
+          "end": 122.507
+        },
+        {
+          "word": "feeling",
+          "start": 123.348,
+          "end": 123.828
+        },
+        {
+          "word": "rejected",
+          "start": 123.868,
+          "end": 124.548
+        },
+        {
+          "word": "in",
+          "start": 125.268,
+          "end": 125.348
+        },
+        {
+          "word": "the",
+          "start": 125.388,
+          "end": 125.468
+        },
+        {
+          "word": "beginning",
+          "start": 125.508,
+          "end": 125.849
+        },
+        {
+          "word": "of",
+          "start": 125.889,
+          "end": 125.949
+        },
+        {
+          "word": "your",
+          "start": 125.989,
+          "end": 126.089
+        },
+        {
+          "word": "career",
+          "start": 126.129,
+          "end": 126.449
+        },
+        {
+          "word": "and",
+          "start": 126.489,
+          "end": 126.569
+        },
+        {
+          "word": "started",
+          "start": 126.609,
+          "end": 126.949
+        },
+        {
+          "word": "feeling",
+          "start": 126.989,
+          "end": 127.269
+        },
+        {
+          "word": "grateful?",
+          "start": 127.329,
+          "end": 127.849
+        }
+      ]
+    },
+    {
+      "start": "00:02:08.569",
+      "end": "00:02:11.971",
+      "scene_id": 18,
+      "camera": null,
+      "visible_people": [
+        "person_1"
+      ],
+      "active_speaker": "person_1",
+      "person": "person_1",
+      "speaker_label": "SPEAKER_01",
+      "text": "Because thank God, because of those failures, he started by a coin.",
+      "words": [
+        {
+          "word": "Because",
+          "start": 128.57,
+          "end": 128.87
+        },
+        {
+          "word": "thank",
+          "start": 128.93,
+          "end": 129.41
+        },
+        {
+          "word": "God,",
+          "start": 129.43,
+          "end": 129.51
+        },
+        {
+          "word": "because",
+          "start": 129.79,
+          "end": 130.07
+        },
+        {
+          "word": "of",
+          "start": 130.11,
+          "end": 130.17
+        },
+        {
+          "word": "those",
+          "start": 130.21,
+          "end": 130.41
+        },
+        {
+          "word": "failures,",
+          "start": 130.47,
+          "end": 130.81
+        },
+        {
+          "word": "he",
+          "start": 130.83,
+          "end": 130.95
+        },
+        {
+          "word": "started",
+          "start": 130.97,
+          "end": 131.371
+        },
+        {
+          "word": "by",
+          "start": 131.431,
+          "end": 131.571
+        },
+        {
+          "word": "a",
+          "start": 131.611,
+          "end": 131.651
+        },
+        {
+          "word": "coin.",
+          "start": 131.711,
+          "end": 131.971
+        }
+      ]
+    },
+    {
+      "start": "00:02:13.288",
+      "end": "00:02:15.808",
+      "scene_id": 19,
+      "camera": null,
+      "visible_people": [
+        "person_2",
+        "person_3",
+        "person_2",
+        "person_2"
+      ],
+      "active_speaker": null,
+      "person": "person_2",
+      "speaker_label": "SPEAKER_00",
+      "text": "No, I've had many failures along the way.",
+      "words": [
+        {
+          "word": "No,",
+          "start": 133.288,
+          "end": 133.448
+        },
+        {
+          "word": "I've",
+          "start": 133.488,
+          "end": 133.648
+        },
+        {
+          "word": "had",
+          "start": 133.688,
+          "end": 133.848
+        },
+        {
+          "word": "many",
+          "start": 133.908,
+          "end": 134.209
+        },
+        {
+          "word": "failures",
+          "start": 134.349,
+          "end": 134.909
+        },
+        {
+          "word": "along",
+          "start": 135.029,
+          "end": 135.289
+        },
+        {
+          "word": "the",
+          "start": 135.349,
+          "end": 135.469
+        },
+        {
+          "word": "way.",
+          "start": 135.509,
+          "end": 135.809
+        }
+      ]
+    },
+    {
+      "start": "00:02:16.729",
+      "end": "00:02:20.431",
+      "scene_id": 19,
+      "camera": null,
+      "visible_people": [
+        "person_2",
+        "person_3",
+        "person_2",
+        "person_2"
+      ],
+      "active_speaker": null,
+      "person": "person_2",
+      "speaker_label": "SPEAKER_00",
+      "text": "I'm not saying I'm grateful for failures, because nobody likes failures.",
+      "words": [
+        {
+          "word": "I'm",
+          "start": 136.73,
+          "end": 136.89
+        },
+        {
+          "word": "not",
+          "start": 136.93,
+          "end": 137.09
+        },
+        {
+          "word": "saying",
+          "start": 137.13,
+          "end": 137.37
+        },
+        {
+          "word": "I'm",
+          "start": 137.39,
+          "end": 137.53
+        },
+        {
+          "word": "grateful",
+          "start": 137.59,
+          "end": 138.09
+        },
+        {
+          "word": "for",
+          "start": 138.13,
+          "end": 138.271
+        },
+        {
+          "word": "failures,",
+          "start": 138.351,
+          "end": 138.731
+        },
+        {
+          "word": "because",
+          "start": 138.791,
+          "end": 139.151
+        },
+        {
+          "word": "nobody",
+          "start": 139.171,
+          "end": 139.591
+        },
+        {
+          "word": "likes",
+          "start": 139.631,
+          "end": 139.871
+        },
+        {
+          "word": "failures.",
+          "start": 139.971,
+          "end": 140.432
+        }
+      ]
+    },
+    {
+      "start": "00:02:21.231",
+      "end": "00:02:22.793",
+      "scene_id": 19,
+      "camera": null,
+      "visible_people": [
+        "person_2",
+        "person_3",
+        "person_2",
+        "person_2"
+      ],
+      "active_speaker": null,
+      "person": "person_2",
+      "speaker_label": "SPEAKER_00",
+      "text": "But I've learned from my failures.",
+      "words": [
+        {
+          "word": "But",
+          "start": 141.232,
+          "end": 141.332
+        },
+        {
+          "word": "I've",
+          "start": 141.372,
+          "end": 141.532
+        },
+        {
+          "word": "learned",
+          "start": 141.572,
+          "end": 141.832
+        },
+        {
+          "word": "from",
+          "start": 141.912,
+          "end": 142.092
+        },
+        {
+          "word": "my",
+          "start": 142.132,
+          "end": 142.273
+        },
+        {
+          "word": "failures.",
+          "start": 142.333,
+          "end": 142.793
+        }
+      ]
+    },
+    {
+      "start": "00:02:23.013",
+      "end": "00:02:25.913",
+      "scene_id": 19,
+      "camera": null,
+      "visible_people": [
+        "person_2",
+        "person_3",
+        "person_2",
+        "person_2"
+      ],
+      "active_speaker": null,
+      "person": "person_2",
+      "speaker_label": "SPEAKER_00",
+      "text": "I mean, I've, you know, haven't many failures.",
+      "words": [
+        {
+          "word": "I",
+          "start": 143.013,
+          "end": 143.073
+        },
+        {
+          "word": "mean,",
+          "start": 143.093,
+          "end": 143.393
+        },
+        {
+          "word": "I've,",
+          "start": 143.433,
+          "end": 143.613
+        },
+        {
+          "word": "you",
+          "start": 144.013,
+          "end": 144.093
+        },
+        {
+          "word": "know,",
+          "start": 144.113,
+          "end": 144.274
+        },
+        {
+          "word": "haven't",
+          "start": 144.774,
+          "end": 145.114
+        },
+        {
+          "word": "many",
+          "start": 145.154,
+          "end": 145.414
+        },
+        {
+          "word": "failures.",
+          "start": 145.474,
+          "end": 145.914
+        }
+      ]
+    },
+    {
+      "start": "00:02:26.435",
+      "end": "00:02:36.259",
+      "scene_id": 19,
+      "camera": null,
+      "visible_people": [
+        "person_2",
+        "person_3",
+        "person_2",
+        "person_2"
+      ],
+      "active_speaker": null,
+      "person": "person_2",
+      "speaker_label": "SPEAKER_00",
+      "text": "I mean, even this whole thing of assuming that my acquisition will be well-rewarded and well-accepted, it was completely different, right?",
+      "words": [
+        {
+          "word": "I",
+          "start": 146.435,
+          "end": 146.475
+        },
+        {
+          "word": "mean,",
+          "start": 146.515,
+          "end": 146.635
+        },
+        {
+          "word": "even",
+          "start": 146.695,
+          "end": 146.875
+        },
+        {
+          "word": "this",
+          "start": 146.915,
+          "end": 147.055
+        },
+        {
+          "word": "whole",
+          "start": 147.115,
+          "end": 147.315
+        },
+        {
+          "word": "thing",
+          "start": 147.355,
+          "end": 147.535
+        },
+        {
+          "word": "of",
+          "start": 147.615,
+          "end": 147.695
+        },
+        {
+          "word": "assuming",
+          "start": 148.376,
+          "end": 149.016
+        },
+        {
+          "word": "that",
+          "start": 149.156,
+          "end": 149.316
+        },
+        {
+          "word": "my",
+          "start": 149.616,
+          "end": 149.776
+        },
+        {
+          "word": "acquisition",
+          "start": 149.896,
+          "end": 150.457
+        },
+        {
+          "word": "will",
+          "start": 150.497,
+          "end": 150.677
+        },
+        {
+          "word": "be",
+          "start": 150.697,
+          "end": 150.797
+        },
+        {
+          "word": "well-rewarded",
+          "start": 150.837,
+          "end": 151.737
+        },
+        {
+          "word": "and",
+          "start": 151.837,
+          "end": 151.937
+        },
+        {
+          "word": "well-accepted,",
+          "start": 151.997,
+          "end": 152.858
+        },
+        {
+          "word": "it",
+          "start": 154.359,
+          "end": 154.439
+        },
+        {
+          "word": "was",
+          "start": 154.479,
+          "end": 154.599
+        },
+        {
+          "word": "completely",
+          "start": 154.679,
+          "end": 155.199
+        },
+        {
+          "word": "different,",
+          "start": 155.259,
+          "end": 155.679
+        },
+        {
+          "word": "right?",
+          "start": 156.059,
+          "end": 156.26
+        }
+      ]
+    },
+    {
+      "start": "00:02:36.340",
+      "end": "00:02:42.782",
+      "scene_id": 19,
+      "camera": null,
+      "visible_people": [
+        "person_2",
+        "person_3",
+        "person_2",
+        "person_2"
+      ],
+      "active_speaker": null,
+      "person": "person_2",
+      "speaker_label": "SPEAKER_00",
+      "text": "And that, for me, was a failure to even anticipate that this is how they would take to my acquisition.",
+      "words": [
+        {
+          "word": "And",
+          "start": 156.34,
+          "end": 156.46
+        },
+        {
+          "word": "that,",
+          "start": 156.52,
+          "end": 156.7
+        },
+        {
+          "word": "for",
+          "start": 157.16,
+          "end": 157.32
+        },
+        {
+          "word": "me,",
+          "start": 157.36,
+          "end": 157.56
+        },
+        {
+          "word": "was",
+          "start": 157.62,
+          "end": 157.8
+        },
+        {
+          "word": "a",
+          "start": 157.88,
+          "end": 157.94
+        },
+        {
+          "word": "failure",
+          "start": 158.02,
+          "end": 158.441
+        },
+        {
+          "word": "to",
+          "start": 158.501,
+          "end": 158.641
+        },
+        {
+          "word": "even",
+          "start": 158.961,
+          "end": 159.181
+        },
+        {
+          "word": "anticipate",
+          "start": 159.841,
+          "end": 160.522
+        },
+        {
+          "word": "that",
+          "start": 160.562,
+          "end": 160.682
+        },
+        {
+          "word": "this",
+          "start": 160.702,
+          "end": 160.842
+        },
+        {
+          "word": "is",
+          "start": 160.882,
+          "end": 160.922
+        },
+        {
+          "word": "how",
+          "start": 160.962,
+          "end": 161.102
+        },
+        {
+          "word": "they",
+          "start": 161.142,
+          "end": 161.262
+        },
+        {
+          "word": "would",
+          "start": 161.302,
+          "end": 161.462
+        },
+        {
+          "word": "take",
+          "start": 161.582,
+          "end": 161.782
+        },
+        {
+          "word": "to",
+          "start": 161.842,
+          "end": 161.942
+        },
+        {
+          "word": "my",
+          "start": 161.982,
+          "end": 162.123
+        },
+        {
+          "word": "acquisition.",
+          "start": 162.223,
+          "end": 162.783
+        }
+      ]
+    },
+    {
+      "start": "00:02:44.034",
+      "end": "00:03:01.491",
+      "scene_id": 21,
+      "camera": null,
+      "visible_people": [
+        "person_2"
+      ],
+      "active_speaker": "person_2",
+      "person": "person_2",
+      "speaker_label": "SPEAKER_00",
+      "text": "So I will learn from that, saying, okay, this is the way we have to deal with markets and investors, you know, that I can't just constantly say why have they been so unfair, why have they been so fickle, why are they, you know, looking at it in this way?",
+      "words": [
+        {
+          "word": "So",
+          "start": 164.035,
+          "end": 164.255
+        },
+        {
+          "word": "I",
+          "start": 164.275,
+          "end": 164.295
+        },
+        {
+          "word": "will",
+          "start": 164.375,
+          "end": 164.616
+        },
+        {
+          "word": "learn",
+          "start": 164.656,
+          "end": 164.876
+        },
+        {
+          "word": "from",
+          "start": 164.936,
+          "end": 165.096
+        },
+        {
+          "word": "that,",
+          "start": 165.156,
+          "end": 165.356
+        },
+        {
+          "word": "saying,",
+          "start": 165.416,
+          "end": 165.657
+        },
+        {
+          "word": "okay,",
+          "start": 165.717,
+          "end": 165.977
+        },
+        {
+          "word": "this",
+          "start": 165.997,
+          "end": 166.117
+        },
+        {
+          "word": "is",
+          "start": 166.137,
+          "end": 166.177
+        },
+        {
+          "word": "the",
+          "start": 166.217,
+          "end": 166.337
+        },
+        {
+          "word": "way",
+          "start": 166.357,
+          "end": 166.437
+        },
+        {
+          "word": "we",
+          "start": 166.457,
+          "end": 166.497
+        },
+        {
+          "word": "have",
+          "start": 166.517,
+          "end": 166.638
+        },
+        {
+          "word": "to",
+          "start": 166.658,
+          "end": 166.758
+        },
+        {
+          "word": "deal",
+          "start": 166.798,
+          "end": 167.018
+        },
+        {
+          "word": "with",
+          "start": 167.058,
+          "end": 167.198
+        },
+        {
+          "word": "markets",
+          "start": 167.258,
+          "end": 167.719
+        },
+        {
+          "word": "and",
+          "start": 167.779,
+          "end": 167.879
+        },
+        {
+          "word": "investors,",
+          "start": 167.939,
+          "end": 168.519
+        },
+        {
+          "word": "you",
+          "start": 169.5,
+          "end": 169.58
+        },
+        {
+          "word": "know,",
+          "start": 169.62,
+          "end": 169.801
+        },
+        {
+          "word": "that",
+          "start": 169.861,
+          "end": 170.041
+        },
+        {
+          "word": "I",
+          "start": 170.922,
+          "end": 170.982
+        },
+        {
+          "word": "can't",
+          "start": 171.042,
+          "end": 171.282
+        },
+        {
+          "word": "just",
+          "start": 171.322,
+          "end": 171.542
+        },
+        {
+          "word": "constantly",
+          "start": 171.662,
+          "end": 172.303
+        },
+        {
+          "word": "say",
+          "start": 172.383,
+          "end": 172.563
+        },
+        {
+          "word": "why",
+          "start": 172.643,
+          "end": 172.823
+        },
+        {
+          "word": "have",
+          "start": 172.883,
+          "end": 173.024
+        },
+        {
+          "word": "they",
+          "start": 173.044,
+          "end": 173.164
+        },
+        {
+          "word": "been",
+          "start": 173.204,
+          "end": 173.404
+        },
+        {
+          "word": "so",
+          "start": 173.544,
+          "end": 173.804
+        },
+        {
+          "word": "unfair,",
+          "start": 174.585,
+          "end": 175.126
+        },
+        {
+          "word": "why",
+          "start": 175.186,
+          "end": 175.366
+        },
+        {
+          "word": "have",
+          "start": 175.406,
+          "end": 175.546
+        },
+        {
+          "word": "they",
+          "start": 175.586,
+          "end": 175.706
+        },
+        {
+          "word": "been",
+          "start": 175.746,
+          "end": 175.986
+        },
+        {
+          "word": "so",
+          "start": 176.147,
+          "end": 176.467
+        },
+        {
+          "word": "fickle,",
+          "start": 178.108,
+          "end": 178.629
+        },
+        {
+          "word": "why",
+          "start": 178.789,
+          "end": 178.969
+        },
+        {
+          "word": "are",
+          "start": 179.049,
+          "end": 179.149
+        },
+        {
+          "word": "they,",
+          "start": 179.189,
+          "end": 179.35
+        },
+        {
+          "word": "you",
+          "start": 179.37,
+          "end": 179.43
+        },
+        {
+          "word": "know,",
+          "start": 179.83,
+          "end": 179.95
+        },
+        {
+          "word": "looking",
+          "start": 179.99,
+          "end": 180.31
+        },
+        {
+          "word": "at",
+          "start": 180.391,
+          "end": 180.511
+        },
+        {
+          "word": "it",
+          "start": 180.551,
+          "end": 180.611
+        },
+        {
+          "word": "in",
+          "start": 180.951,
+          "end": 181.031
+        },
+        {
+          "word": "this",
+          "start": 181.071,
+          "end": 181.251
+        },
+        {
+          "word": "way?",
+          "start": 181.311,
+          "end": 181.492
+        }
+      ]
+    },
+    {
+      "start": "00:03:02.111",
+      "end": "00:03:05.915",
+      "scene_id": 21,
+      "camera": null,
+      "visible_people": [
+        "person_2"
+      ],
+      "active_speaker": "person_2",
+      "person": "person_2",
+      "speaker_label": "SPEAKER_00",
+      "text": "But I have to understand how they perceive this business, right?",
+      "words": [
+        {
+          "word": "But",
+          "start": 182.112,
+          "end": 182.252
+        },
+        {
+          "word": "I",
+          "start": 182.292,
+          "end": 182.352
+        },
+        {
+          "word": "have",
+          "start": 182.412,
+          "end": 182.573
+        },
+        {
+          "word": "to",
+          "start": 182.613,
+          "end": 182.733
+        },
+        {
+          "word": "understand",
+          "start": 182.813,
+          "end": 183.373
+        },
+        {
+          "word": "how",
+          "start": 183.493,
+          "end": 183.674
+        },
+        {
+          "word": "they",
+          "start": 183.774,
+          "end": 183.994
+        },
+        {
+          "word": "perceive",
+          "start": 184.074,
+          "end": 184.574
+        },
+        {
+          "word": "this",
+          "start": 185.035,
+          "end": 185.215
+        },
+        {
+          "word": "business,",
+          "start": 185.275,
+          "end": 185.655
+        },
+        {
+          "word": "right?",
+          "start": 185.716,
+          "end": 185.916
+        }
+      ]
+    },
+    {
+      "start": "00:03:06.967",
+      "end": "00:03:11.336",
+      "scene_id": 21,
+      "camera": null,
+      "visible_people": [
+        "person_2"
+      ],
+      "active_speaker": "person_2",
+      "person": "person_2",
+      "speaker_label": "SPEAKER_00",
+      "text": "and I cannot just sort of fault them because they I have to explain it better.",
+      "words": [
+        {
+          "word": "and",
+          "start": 186.967,
+          "end": 187.088
+        },
+        {
+          "word": "I",
+          "start": 187.208,
+          "end": 187.268
+        },
+        {
+          "word": "cannot",
+          "start": 187.328,
+          "end": 187.689
+        },
+        {
+          "word": "just",
+          "start": 187.829,
+          "end": 188.13
+        },
+        {
+          "word": "sort",
+          "start": 188.25,
+          "end": 188.47
+        },
+        {
+          "word": "of",
+          "start": 188.51,
+          "end": 188.591
+        },
+        {
+          "word": "fault",
+          "start": 188.671,
+          "end": 189.032
+        },
+        {
+          "word": "them",
+          "start": 189.092,
+          "end": 189.312
+        },
+        {
+          "word": "because",
+          "start": 189.392,
+          "end": 189.693
+        },
+        {
+          "word": "they",
+          "start": 189.713,
+          "end": 189.953
+        },
+        {
+          "word": "I",
+          "start": 190.094,
+          "end": 190.154
+        },
+        {
+          "word": "have",
+          "start": 190.174,
+          "end": 190.314
+        },
+        {
+          "word": "to",
+          "start": 190.334,
+          "end": 190.414
+        },
+        {
+          "word": "explain",
+          "start": 190.474,
+          "end": 190.855
+        },
+        {
+          "word": "it",
+          "start": 190.915,
+          "end": 190.975
+        },
+        {
+          "word": "better.",
+          "start": 191.036,
+          "end": 191.336
+        }
+      ]
+    }
+  ]
+}

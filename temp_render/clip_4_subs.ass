@@ -1,0 +1,42 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,44,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:02:00.38,0:02:00.46,Default,,0,0,0,,{\c&HFFFFFF&}At
+Dialogue: 0,0:02:00.52,0:02:00.70,Default,,0,0,0,,{\c&HFFFFFF&}what
+Dialogue: 0,0:02:00.78,0:02:01.02,Default,,0,0,0,,{\c&HFFFFFF&}point
+Dialogue: 0,0:02:01.04,0:02:01.08,Default,,0,0,0,,{\c&HFFFFFF&}do
+Dialogue: 0,0:02:01.10,0:02:01.40,Default,,0,0,0,,{\c&HFFFFFF&}you
+Dialogue: 0,0:02:02.00,0:02:02.50,Default,,0,0,0,,{\c&HFFFFFF&}stop
+Dialogue: 0,0:02:03.34,0:02:03.82,Default,,0,0,0,,{\c&HFFFFFF&}feeling
+Dialogue: 0,0:02:03.86,0:02:04.54,Default,,0,0,0,,{\c&HFFFFFF&}rejected
+Dialogue: 0,0:02:05.26,0:02:05.34,Default,,0,0,0,,{\c&HFFFFFF&}in
+Dialogue: 0,0:02:05.38,0:02:05.46,Default,,0,0,0,,{\c&HFFFFFF&}the
+Dialogue: 0,0:02:05.50,0:02:05.84,Default,,0,0,0,,{\c&HFFFFFF&}beginning
+Dialogue: 0,0:02:05.88,0:02:05.94,Default,,0,0,0,,{\c&HFFFFFF&}of
+Dialogue: 0,0:02:05.98,0:02:06.08,Default,,0,0,0,,{\c&HFFFFFF&}your
+Dialogue: 0,0:02:06.12,0:02:06.44,Default,,0,0,0,,{\c&HFFFFFF&}career
+Dialogue: 0,0:02:06.48,0:02:06.56,Default,,0,0,0,,{\c&HFFFFFF&}and
+Dialogue: 0,0:02:06.60,0:02:06.94,Default,,0,0,0,,{\c&HFFFFFF&}started
+Dialogue: 0,0:02:06.98,0:02:07.26,Default,,0,0,0,,{\c&HFFFFFF&}feeling
+Dialogue: 0,0:02:07.32,0:02:07.84,Default,,0,0,0,,{\c&HFFFFFF&}grateful?
+Dialogue: 0,0:02:08.56,0:02:08.87,Default,,0,0,0,,{\c&HFFFFFF&}Because
+Dialogue: 0,0:02:08.93,0:02:09.40,Default,,0,0,0,,{\c&HFFFFFF&}thank
+Dialogue: 0,0:02:09.43,0:02:09.50,Default,,0,0,0,,{\c&HFFFFFF&}God,
+Dialogue: 0,0:02:09.78,0:02:10.06,Default,,0,0,0,,{\c&HFFFFFF&}because
+Dialogue: 0,0:02:10.11,0:02:10.16,Default,,0,0,0,,{\c&HFFFFFF&}of
+Dialogue: 0,0:02:10.21,0:02:10.40,Default,,0,0,0,,{\c&HFFFFFF&}those
+Dialogue: 0,0:02:10.46,0:02:10.81,Default,,0,0,0,,{\c&HFFFFFF&}failures,
+Dialogue: 0,0:02:10.83,0:02:10.94,Default,,0,0,0,,{\c&HFFFFFF&}he
+Dialogue: 0,0:02:10.96,0:02:11.37,Default,,0,0,0,,{\c&HFFFFFF&}started
+Dialogue: 0,0:02:11.43,0:02:11.57,Default,,0,0,0,,{\c&HFFFFFF&}by
+Dialogue: 0,0:02:11.61,0:02:11.65,Default,,0,0,0,,{\c&HFFFFFF&}a
+Dialogue: 0,0:02:11.71,0:02:11.97,Default,,0,0,0,,{\c&HFFFFFF&}coin.
